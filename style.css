@@ -40,8 +40,9 @@
          }
      img.two
 	{
-		margin-right:100px;
+		margin-right:0px;
 		top:0px;
+		right:0px
 	}
 
 a:visited
