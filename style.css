@@ -23,7 +23,7 @@
          {
 	        color:white;
 		text-align:center;
-		font-size:40px
+		font-size:25px
 	 }
  	 p
 	 {
@@ -42,6 +42,7 @@
 	 }
      #image2
 	{
+		position: absolute;
 		right: 0px;
 		top: 0px;
 		width:70%;
