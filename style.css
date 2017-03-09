@@ -40,6 +40,14 @@
 		 left: 0px;
                  top: 0px;
 	 }
+     #image2
+	{
+		right: 0px;
+		top: 0px;
+		width:70%;
+		height:70%;
+	}
+
 a:visited
          {
                 color: White;
