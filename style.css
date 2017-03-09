@@ -34,18 +34,17 @@
       #img1
 	 {
 	         position: absolute;
-		     z-index: -1;
+		  
 
-		 left: 0px;
-                 top: 0px;
+		 
+                
 		 width=70%;
 		 height=70%;	
          }
      #img2
 	{
 		position: absolute;
-		right: 0px;
-		top: 0px;
+			
 		width=70%;
 		height=70%;
 	}
