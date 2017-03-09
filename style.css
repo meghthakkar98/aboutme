@@ -40,8 +40,10 @@ a:visited
                 color: white;
          }
 a{
-	font-size:20px;
+	
+	
 	text-align:center;
+	font-size:20px;
 }
 a:hover 
          {
