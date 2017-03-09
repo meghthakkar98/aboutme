@@ -33,16 +33,16 @@
 	 }
       #img1
 	 {
-		 left:0px;
-                 top:0px;
-		 width=70%;
-		 height=70%;	
+		 left: 0px;
+                 top: 0px;
+		 width= 70%;
+		 height= 70%;	
          }
      img.two
 	{
-		right:0px;
-		margin-right:0px;
-		top:0px;
+		right: 0px;
+		margin: auto;
+		top: 0px;
 		}
 
 a:visited
