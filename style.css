@@ -41,8 +41,9 @@
      img.two
 	{
 		right: 0px;
-		margin: auto;
 		top: 0px;
+		padding-right: 80%;
+		
 		}
 
 a:visited
