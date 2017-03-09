@@ -33,13 +33,14 @@
 	 }
       #img1
 	 {
-		 margin-left:0px;
+		 left:0px;
                  top:0px;
 		 width=70%;
 		 height=70%;	
          }
      #img2
 	{
+		right:0px;
 		top:0px;
 		margin-right:0px;
 		width=70%;
