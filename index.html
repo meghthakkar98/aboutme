@@ -31,7 +31,25 @@
 	  <h4> MEGH , VIHANG AND HARSHANG </h4>
           <center><a  href="https://www.facebook.com/megh.thakkar.52"><i class="fa fa-facebook-square" style="font-size:20px"></i> website designed by MEGH THAKKAR </a></center>
 	
-	  	
+	  <div id="map"></div>
+          <script>
+      		function initMap()
+		  {
+      		  var uluru = {lat: 23.0276100, lng: 72.4742360};
+      		  var map = new google.maps.Map(document.getElementById('map'), {
+        	  zoom: 4,
+        	  center: uluru
+        	});
+        		var marker = new google.maps.Marker({
+          		position: uluru,
+          		map: map
+        		});
+      			}
+    	   </script>
+    	        <script async defer
+    		src="https://maps.googleapis.com/maps/api/js?AIzaSyCMGZbGR651SPoNWUyAwbhHH2hnS_nagpA=&callback=initMap">
+    		</script>
+		
 	
 	
 	
