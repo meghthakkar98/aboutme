@@ -3,6 +3,10 @@
  		background-color:#cc0000;
 		
 	 }
+#map {
+        height: 400px;
+        width: 100%;
+       }
  h4
         {
 	        color:#FFD700;
