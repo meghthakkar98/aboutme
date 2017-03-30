@@ -51,12 +51,17 @@
 		a
 		{
 			text-decoration: none;
-			color: #3377ff;	
+			color: #3399ff;
 		}
 		a:hover
 		{
 			text-decoration: none;
 			color: black;
 		}
-
+		#icon
+		{
+			text-decoration: none;
+			text-align: center;
+			color:black;
+		}
 
