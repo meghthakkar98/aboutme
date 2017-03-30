@@ -1,9 +1,7 @@
-	   body{
-	  		background-color: black;
-		 
-  			color: white; 
+ body
+		{
+	  		background-color: white;
 		}
-
 		h1
 		{
 			font:  'Fredoka One';
@@ -12,14 +10,33 @@
 		}
 		#p1
 		{
-			color:#F5F5F5;
+			color:#737373;
 			word-spacing: 2px;
 			font:'Dancing Script', cursive;
 			font-size: 30px;
 			text-align: center;
+			margin: 0 auto;
 		}
 		hr
 		{
 			margin: 0px 250px 0px 250px ;
 		}
+		
+		#pic
+		{
+			text-align:center;
+		}
+		#myne
+		{
+			font-family:'Shadows Into Light Two', cursive;
+			font-size: 50px;
+			text-align: center;
+			color: #3377ff;
+		}
+		img
+		{
+			height: 200px;
+			width: 200px ;
+		}
+
 		
