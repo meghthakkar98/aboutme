@@ -16,11 +16,12 @@
 			word-spacing: 2px;
 			font:'Dancing Script', cursive;
 			font-size: 30px;
-			padding: 0px 250px 0px 250px;
-			margin: 0px 350px 0px 350px;
+			text-align: center;
+			margin: auto ;
 
 		}
 		
+		hr
 		{
 			margin: 0px 250px 0px 250px ;
 		}
