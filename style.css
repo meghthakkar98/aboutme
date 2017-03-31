@@ -90,3 +90,26 @@
     							from {color: #3399ff;}
     							to {color: black;}
 						}
+						#textchange1
+							{
+							font-family:'Shadows Into Light Two', cursive;
+							font-size: 50px;
+							text-align: center;
+   							-webkit-animation-name: ex1; 
+  							-webkit-animation-duration: 25s; 
+    							animation-name: ex1;
+ 							animation-duration: 25s;
+							}
+
+							@-webkit-keyframes ex1
+							{
+    							from {color: #3399ff;}
+    							to {color: : red;}
+							}
+
+							
+							@keyframes ex1
+							{
+    							from {color: #3399ff;}
+    							to {color: red;}
+							}
