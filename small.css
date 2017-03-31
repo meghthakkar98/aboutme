@@ -58,3 +58,15 @@
 			text-decoration: none;
 			color: black;
 		}
+		#icon
+		{
+			text-decoration: none;
+			text-align: center;
+			color: black;
+		}
+		i:hover
+		{
+			text-decoration:none;
+			text-align:center;
+			color: #3399ff;
+		}
