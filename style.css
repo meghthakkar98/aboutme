@@ -39,7 +39,23 @@
 			color: #3399ff;
 			text-align: center;
 			font-size: 28px;
+			-webkit-animation-name: exp1; 
+  			-webkit-animation-duration: 30s; 
+    		animation-name: exp1;
+ 			animation-duration: 30s;
 		}
+		@-webkit-keyframes exp1
+		{
+		from {color: #3399ff;}
+    		to {color: : red;}
+		}
+		@keyframes exp1
+		{
+    		from {color: #3399ff;}
+    		to {color: red;}
+		}		
+
+					
 		#wh
 		{
 			color: white;
