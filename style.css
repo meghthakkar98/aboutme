@@ -64,3 +64,9 @@
 			text-align: center;
 			color:black;
 		}					
+		i:hover
+		{
+			text-decoration:none;
+			text-align:center;
+			color: #3399ff;
+		}
