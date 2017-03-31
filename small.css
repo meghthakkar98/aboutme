@@ -72,6 +72,7 @@
 							font-family:'Shadows Into Light Two', cursive;
 							font-size: 50px;
 							text-align: center;
+							word-spacing:2px ;
    							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
   							-webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
     							animation-name: ex;
@@ -94,6 +95,7 @@
 							font-family:'Shadows Into Light Two', cursive;
 							font-size: 50px;
 							text-align: center;
+							word-spacing:2px;	
    							-webkit-animation-name: ex1; 
   							-webkit-animation-duration: 45s; 
     							animation-name: ex1;
