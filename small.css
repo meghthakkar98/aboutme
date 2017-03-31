@@ -100,13 +100,13 @@
 							@-webkit-keyframes ex
 							{
     							from {color: #3399ff;}
-    							to {color: : black;}
+    							to {color: : red;}
 							}
 
 							@keyframes ex 			
 							{
     							from {color: #3399ff;}
-    							to {color: black;}
+    							to {color: red;}
 							}
 							
 							
