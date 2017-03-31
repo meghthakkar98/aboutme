@@ -67,3 +67,26 @@
 			text-align:center;
 			color: #3399ff;
 		}
+
+						#textchange
+						{
+							font-family:'Shadows Into Light Two', cursive;
+							font-size: 50px;
+							text-align: center;
+   							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
+  							-webkit-animation-duration: 9s; /* Safari 4.0 - 8.0 */
+	    						animation-name: ex;
+ 							animation-duration: 9s;
+						}
+
+						@-webkit-keyframes ex
+						{
+    							from {color: #3399ff;}
+    							to {color: : black;}
+						}
+
+						@keyframes ex			
+						{
+    							from {color: #3399ff;}
+    							to {color: black;}
+						}
