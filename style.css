@@ -90,10 +90,10 @@
 							font-family: 'Pacifico', cursive;							font-size: 50px;
 							text-align: center;
 							word-wrap: 2px;	
-							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
-  							-webkit-animation-duration: 11s; /* Safari 4.0 - 8.0 */
+							-webkit-animation-name: ex; 
+  							-webkit-animation-duration: 21s;
 	    						animation-name: ex;
- 							animation-duration: 11s;
+ 							animation-duration: 21s;
 						}
 
 						@-webkit-keyframes ex
