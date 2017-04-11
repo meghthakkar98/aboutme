@@ -41,17 +41,17 @@
 			font-size: 28px;
 			-webkit-animation-name: exp1; 
   			-webkit-animation-duration: 75s; 
-    		animation-name: exp1;
+    			animation-name: exp1;
  			animation-duration: 75s;
                }
 		@-webkit-keyframes exp1
 		{
-		from {color: #3399ff;}
+		from {color: #66ffff;}
     		to {color: : red;}
 		}
 		@keyframes exp1
 		{
-    		from {color: #3399ff;}
+    		from {color: #66ffff;}
     		to {color: red;}
 		}		
 
@@ -98,13 +98,13 @@
 
 						@-webkit-keyframes ex
 						{
-    							from {color: #3399ff;}
+    							from {color: #66ffff;}
     							to {color: : red;}
 						}
 
 						@keyframes ex			
 						{
-    							from {color: #3399ff;}
+    							from {color: #66ffff;}
     							to {color: red;}
 						}
 							/*---for Heading1----*/
@@ -123,13 +123,13 @@
 
 							@-webkit-keyframes ex1
 							{
-    							from {color: #3399ff;}
+    							from {color: #66ffff;}
     							to {color: : black;}
 							}
 
 							
 							@keyframes ex1
 							{
-    							from {color: #3399ff;}
+    							from {color: #66ffff;}
     							to {color: black;}
 							}
