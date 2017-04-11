@@ -63,14 +63,15 @@
 		}
 		a
 		{
+			font-family: 'Pacifico', cursive;
 			text-decoration: none;
 			color: #3377ff;	
-			font-family: 'Pacifico', cursive;
 		}
 		a:hover
 		{
 			text-decoration: none;
 			color: black;
+			
 		}
 		#icon
 		{
@@ -88,7 +89,7 @@
 
 					#textchange
 					{
-							font-family:'Shadows Into Light Two', cursive;
+							font-family: 'Pacifico', cursive;
 							font-size: 50px;
 							text-align: center;
 							word-wrap: 4px;
