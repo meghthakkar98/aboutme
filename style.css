@@ -33,6 +33,7 @@
 		{
 			height: 200px;
 			width: 200px ;
+			border-radius:50%;
 		}
 		#ahr
 		{
@@ -41,30 +42,26 @@
 			font-size: 28px;
 			-webkit-animation-name: exp1; 
   			-webkit-animation-duration: 75s; 
-    			animation-name: exp1;
+    		animation-name: exp1;
  			animation-duration: 75s;
                }
 		@-webkit-keyframes exp1
 		{
-		from {color: #66ffff;}
+		from {color: ##66ffff;}
     		to {color: : red;}
 		}
 		@keyframes exp1
 		{
-    		from {color: #66ffff;}
+    		from {color: ##66ffff;}
     		to {color: red;}
 		}		
 
-					
-		#wh
-		{
-			color: white;
-		}
+				
 		a
 		{
+			font-family: 'Pacifico', cursive;
 			text-decoration: none;
 			color: #3399ff;
-			font-family: 'Pacifico', cursive;
 		}
 		a:hover
 		{
@@ -83,18 +80,24 @@
 			text-decoration:none;
 			text-align:center;
 			color: #3399ff;
-		}
+		}	
+
+
+
+
+
 						/*---for name----*/
 
 						#textchange
 						{
-							font-family: 'Pacifico', cursive;							font-size: 50px;
+							font-family: 'Pacifico', cursive;
+							font-size: 50px;
 							text-align: center;
 							word-wrap: 2px;	
-							-webkit-animation-name: ex; 
-  							-webkit-animation-duration: 21s;
+							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
+  							-webkit-animation-duration: 11s; /* Safari 4.0 - 8.0 */
 	    						animation-name: ex;
- 							animation-duration: 21s;
+ 							animation-duration: 11s;
 						}
 
 						@-webkit-keyframes ex
