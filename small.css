@@ -47,12 +47,12 @@
 		}
 		@-webkit-keyframes exp1
 		{
-		from {color: #66ffff;}
+		from {color: #3399ff;}
     		to {color: : red;}
 		}
 		@keyframes exp1
 		{
-    		from {color: #66ffff;}
+    		from {color: #3399ff;}
     		to {color: red;}
 		}		
 
@@ -63,15 +63,14 @@
 		}
 		a
 		{
-			font-family: 'Pacifico', cursive;
 			text-decoration: none;
 			color: #3377ff;	
+			font-family: 'Pacifico', cursive;
 		}
 		a:hover
 		{
 			text-decoration: none;
 			color: black;
-			
 		}
 		#icon
 		{
@@ -101,13 +100,13 @@
 
 							@-webkit-keyframes ex
 							{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: : red;}
 							}
 
 							@keyframes ex 			
 							{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: red;}
 							}
 							
@@ -126,13 +125,13 @@
 
 							@-webkit-keyframes ex1
 							{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: : black;}
 							}
 
 							
 							@keyframes ex1
 							{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: black;}
 							}
