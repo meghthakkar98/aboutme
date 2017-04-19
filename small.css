@@ -34,7 +34,10 @@
 			height: 200px;
 			width: 200px ;
 		}
-
+		hr
+		{
+			margin: 0 auto;
+		}
 		#ahr
 		{
 			color: #3399ff;
