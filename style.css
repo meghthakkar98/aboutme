@@ -35,6 +35,10 @@
 			width: 200px ;
 			border-radius:50%;
 		}
+		hr
+		{
+			margin: 0px 200px 0px 200px
+		}
 		#ahr
 		{
 			color: #3399ff;
