@@ -29,6 +29,30 @@
 			text-align: center;
 			color: #3377ff;
 		}
+		a
+		{
+			text-decoration: none;
+			color: #3377ff;	
+			font-family: 'Pacifico', cursive;
+		}
+		a:hover
+		{
+			text-decoration: none;
+			color: black;
+		}
+		#icon
+		{
+			text-decoration: none;
+			text-align: center;
+			color: black;
+			word-spacing: 10px;
+		}
+		#icon:hover
+		{
+			text-decoration:none;
+			text-align:center;
+			color: #3399ff;
+		}
 		#ahr
 		{
 			color: #3399ff;
@@ -53,30 +77,7 @@
     		from {color: #3399ff;}
     		to {color: red;}
 		}	
-		a
-		{
-			text-decoration: none;
-			color: #3377ff;	
-			font-family: 'Pacifico', cursive;
-		}
-		a:hover
-		{
-			text-decoration: none;
-			color: black;
-		}
-		#icon
-		{
-			text-decoration: none;
-			text-align: center;
-			color: black;
-			word-spacing: 10px;
-		}
-		i:hover
-		{
-			text-decoration:none;
-			text-align:center;
-			color: #3399ff;
-		}
+
 
 					#textchange
 					{
