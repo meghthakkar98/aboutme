@@ -8,7 +8,7 @@
 			font-size: 50px;
 			text-align: center;
 		}
-		#p1
+		p
 		{
 			color:#737373;
 			word-spacing: 2px;
@@ -17,10 +17,12 @@
 			text-align: center;
 			margin: 0px 200px 0px 200px ;
 		}
-		
-		#pic
+		img
 		{
-			text-align:center;
+			height: 200px;
+			width: 200px ;
+			border-radius:50%;
+			text-align: center;
 		}
 		#myne
 		{
@@ -29,17 +31,7 @@
 			text-align: center;
 			color: #3377ff;
 		}
-		img
-		{
-			height: 200px;
-			width: 200px ;
-			border-radius:50%;
-		}
-		hr
-		{
-			margin: 0px 200px 0px 200px
-		}
-		#ahr
+		#line
 		{
 			color: #3399ff;
 			text-align: center;
@@ -98,8 +90,8 @@
 							font-size: 50px;
 							text-align: center;
 							word-wrap: 2px;	
-							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
-  							-webkit-animation-duration: 11s; /* Safari 4.0 - 8.0 */
+							-webkit-animation-name: ex; 
+  							-webkit-animation-duration: 11s; 
 	    						animation-name: ex;
  							animation-duration: 11s;
 						}
@@ -140,4 +132,9 @@
 							{
     							from {color: #66ffff;}
     							to {color: black;}
+							}
+							hr
+							{
+								
+								margin: 0px 200px 0px 200px;
 							}
