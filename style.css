@@ -31,6 +31,30 @@
 			text-align: center;
 			color: #3377ff;
 		}
+		a
+		{
+			font-family: 'Pacifico', cursive;
+			text-decoration: none;
+			color: #3399ff;
+		}
+		a:hover
+		{
+			text-decoration: none;
+			color: black;
+		}
+		#icon
+		{
+			text-decoration: none;
+			text-align: center;
+			color:black;
+			word-spacing: 10px;
+		}					
+		#icon:hover
+		{
+			text-decoration:none;
+			text-align:center;
+			color: #3399ff;
+		}
 		#ahr
 		{
 			color: #3399ff;
@@ -53,35 +77,6 @@
 		}		
 
 				
-		a
-		{
-			font-family: 'Pacifico', cursive;
-			text-decoration: none;
-			color: #3399ff;
-		}
-		a:hover
-		{
-			text-decoration: none;
-			color: black;
-		}
-		#icon
-		{
-			text-decoration: none;
-			text-align: center;
-			color:black;
-			word-spacing: 10px;
-		}					
-		i:hover
-		{
-			text-decoration:none;
-			text-align:center;
-			color: #3399ff;
-		}	
-
-
-
-
-
 						/*---for name----*/
 
 						#textchange
@@ -91,9 +86,9 @@
 							text-align: center;
 							word-wrap: 2px;	
 							-webkit-animation-name: ex; 
-  							-webkit-animation-duration: 15s; 
+  							-webkit-animation-duration: 11s; 
 	    						animation-name: ex;
- 							animation-duration: 15s;
+ 							animation-duration: 11s;
 						}
 
 						@-webkit-keyframes ex
