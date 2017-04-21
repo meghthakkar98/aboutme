@@ -8,7 +8,7 @@
 			font-size: 50px;
 			text-align: center;
 		}
-		#p1
+		p
 		{
 			color:#737373;
 			word-spacing: 1px;
@@ -17,10 +17,10 @@
 			text-align: center;
 			margin: 0 auto ;
 		}
-		
-		#pic
+		img
 		{
-			text-align:center;
+			height: 200px;
+			width: 200px ;
 		}
 		#myne
 		{
@@ -29,16 +29,7 @@
 			text-align: center;
 			color: #3377ff;
 		}
-		img
-		{
-			height: 200px;
-			width: 200px ;
-		}
-		hr
-		{
-			margin: 0 auto;
-		}
-		#ahr
+		#line
 		{
 			color: #3399ff;
 			text-align: center;
@@ -47,6 +38,10 @@
   			-webkit-animation-duration: 75s; 
     		animation-name: exp1;
  			animation-duration: 75s;
+		}
+		hr
+		{
+			margin: 0 auto;
 		}
 		@-webkit-keyframes exp1
 		{
@@ -57,13 +52,7 @@
 		{
     		from {color: #3399ff;}
     		to {color: red;}
-		}		
-
-
-		#wh
-		{
-			color: white;
-		}
+		}	
 		a
 		{
 			text-decoration: none;
@@ -95,8 +84,8 @@
 							font-size: 50px;
 							text-align: center;
 							word-wrap: 4px;
-   							-webkit-animation-name: ex; /* Safari 4.0 - 8.0 */
-  							-webkit-animation-duration:11s; /* Safari 4.0 - 8.0 */
+   							-webkit-animation-name: ex; 
+  							-webkit-animation-duration:11s; 
     							animation-name: ex;
  							animation-duration: 11s;
 					}
