@@ -86,9 +86,9 @@
 							text-align: center;
 							word-wrap: 4px;
    							-webkit-animation-name: ex; 
-  							-webkit-animation-duration:11s; 
+  							-webkit-animation-duration:25s; 
     							animation-name: ex;
- 							animation-duration: 11s;
+ 							animation-duration: 25s;
 					}
 
 							@-webkit-keyframes ex
@@ -141,9 +141,8 @@
 			background-color: white;		
 		}
 
-#resnavgi	
-{
-
+		#resnavgi	
+		{
 			background-color: black ;
 			position:fixed;
 			font-family: 'Shadows Into Light Two', cursive;
