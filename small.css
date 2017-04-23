@@ -147,9 +147,10 @@
 			position:fixed;
 			font-family: 'Shadows Into Light Two', cursive;
 			text-align:center;
-			top:0;
+			bottom:0;
 			left:0;
 			width:100%;
+			padding-left:4%;
 			display: block;
 }
 #flipabt,#flipabi,#flipcur,#flipedu
