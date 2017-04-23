@@ -158,7 +158,7 @@
 			left: 0;
 			width:100%;
 			display: block;
-			word-spacing: 55px;
+			word-spacing: 0 auto;
 		}	
 
 		#flipabt,#flipabi,#flipcur,#flipedu
