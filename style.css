@@ -16,6 +16,7 @@
 			font-size: 30px;
 			text-align: center;
 			margin: 0px 200px 0px 200px ;
+			color:#737373;
 		}
 		img
 		{
@@ -30,6 +31,7 @@
 			font-size: 50px;
 			text-align: center;
 			color: #3377ff;
+			padding-top: 60px;
 		}
 		a
 		{
@@ -76,8 +78,7 @@
     		to {color: red;}
 		}		
 
-				
-						/*---for name----*/
+									/*---for name----*/
 
 						#textchange
 						{
@@ -133,3 +134,44 @@
 								
 								margin: 0px 200px 0px 200px;
 							}
+
+
+		#panelabt
+		{
+			background-color: whit;			
+		}
+
+		#panelabi,#panelcur,#paneledu
+		{
+			display: none;
+			width: 100%;		
+			background-color: white;		
+		}				
+
+		#resnavgi	
+		{
+			background-color: #3377ff ;
+			position:fixed;
+			font-family: 'Shadows Into Light Two', cursive;
+			text-align:center;
+			top:0;
+			left: 0;
+			width:100%;
+		}	
+
+		#flipabt,#flipabi,#flipcur,#flipedu
+		{
+			float: left;
+			font-size: 25px;
+			margin-top: 1%;
+			color:white;
+			padding-left: 8%;	 
+	
+		}
+
+		#flipabt:hover,#flipabi:hover,#flipcur:hover,#flipedu:hover
+		{
+			color: black;
+			cursor: pointer;
+		}
+		
