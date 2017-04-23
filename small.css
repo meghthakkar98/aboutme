@@ -153,6 +153,7 @@
 			width:100%;
 			display: block;
 			position: absolute;
+			word-spacing: 25px;
 }
 #flipabt,#flipabi,#flipcur,#flipedu
 		{
