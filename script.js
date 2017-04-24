@@ -97,3 +97,98 @@ $(document).ready(function(){
     });
 });
 
+// mobile botttom 
+//aboutme
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelabt").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#paneledu").hide();
+    });
+});
+// ability
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#panelabi").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+// curiosity
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#panelcur").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+// education
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#paneledu").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#panelabi").hide();
+    });
+});
