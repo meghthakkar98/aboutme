@@ -158,10 +158,10 @@
 		#mflipabt,#mflipabi,#mflipcur,#mflipedu
 		{
 			float: left;	
-			font-size: 13;
+			font-size: 16px;
 			color:white;
 			padding-top: 3%;
-			padding-left: 5%;	 
+			padding-left: 7%;	 
 			margin-bottom: 4%;
 		}
 		#mflipabt:hover,#mflipabi:hover,#mflipcur:hover,#mflipedu:hover
