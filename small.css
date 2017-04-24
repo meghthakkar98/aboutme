@@ -155,15 +155,13 @@
 			display: inline-block;
 			word-spacing: 0 auto;
 		}
-
 		#mflipabt,#mflipabi,#mflipcur,#mflipedu
 		{
 			float: left;	
-			font-size: 15px;
+			font-size: 12px;
 			color:white;
-			padding-bottom: 0 auto;
-			margin-left:5%;
-			margin-top:2%;
+			padding-top: 0 auto;	 
+			padding-left: 2%;
 			margin-bottom: 2%;
 		}
 		#mflipabt:hover,#mflipabi:hover,#mflipcur:hover,#mflipedu:hover
