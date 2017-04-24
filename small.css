@@ -160,9 +160,9 @@
 			float: left;	
 			font-size: 15px;
 			color:white;
-			padding-top: 3%;
-			padding-left: 2%;	 
-			margin-bottom: 4%;
+			padding-top: 0 auto;
+			margin-left:5%;	 
+			margin-bottom: 3%;
 		}
 		#mflipabt:hover,#mflipabi:hover,#mflipcur:hover,#mflipedu:hover
 		{
