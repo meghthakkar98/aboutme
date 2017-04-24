@@ -13,7 +13,7 @@
 			color:#737373;
 			word-spacing: 1px;
 			font:'Dancing Script', cursive;
-			font-size: 20px;
+			font-size: 18px;
 			text-align: center;
 			margin: 0 auto ;
 		}
@@ -111,9 +111,9 @@
 							text-align: center;
 							word-wrap: 4px;	
    							-webkit-animation-name: ex1; 
-  							-webkit-animation-duration: 65s; 
+  							-webkit-animation-duration: 25s; 
     							animation-name: ex1;
- 							animation-duration: 65s;
+ 							animation-duration: 25s;
 							}
 
 							@-webkit-keyframes ex1
