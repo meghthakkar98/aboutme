@@ -176,4 +176,8 @@
 			color: black;
 			cursor: pointer;
 		}
-		
+	
+		.dhide
+		{
+			display: none;
+		}
