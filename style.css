@@ -176,8 +176,10 @@
 			color: black;
 			cursor: pointer;
 		}
-	
+	style>
+@media only screen and (min-width: 800px)  { 
 		.deskhide
 		{
 			display: none;
 		}
+}
