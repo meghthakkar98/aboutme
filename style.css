@@ -29,7 +29,7 @@
 		}
 		#myne
 		{
-			font-family:'Shadows Into Light Two', cursive;
+			font-family: "avenir", sans-serif;
 			font-size: 50px;
 			text-align: center;
 			color: #3377ff;
@@ -154,7 +154,7 @@
 		{
 			background-color: #3377ff ;
 			position:fixed;
-			font-family: 'Shadows Into Light Two', cursive;
+			font-family: "avenir", sans-serif;
 			text-align:center;
 			top:0;
 			left: 0;
