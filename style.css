@@ -95,13 +95,13 @@
 
 						@-webkit-keyframes ex
 						{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: : red;}
 						}
 
 						@keyframes ex			
 						{
-    							from {color: #66ffff;}
+    							from {color: #3399ff;}
     							to {color: red;}
 						}
 							/*---for Heading1----*/
@@ -120,20 +120,20 @@
 
 							@-webkit-keyframes ex1
 							{
-    							from {color: #66ffff;}
+    							from {color:#3399ff;}
     							to {color: : black;}
 							}
 
 							
 							@keyframes ex1
 							{
-    							from {color: #66ffff;}
+    							from {color:#3399ff;}
     							to {color: black;}
 							}
 							hr
 							{
 								
-								margin: 0px 200px 0px 200px;
+								margin: 0px 330px 0px 330px;
 							}
 
 
