@@ -113,9 +113,9 @@
 							text-align: center;
 							word-wrap: 2px;	
    							-webkit-animation-name: ex1; 
-  							-webkit-animation-duration: 25s; 
+  							-webkit-animation-duration: 20s; 
     							animation-name: ex1;
- 							animation-duration: 25s;
+ 							animation-duration: 20s;
 							}
 
 							@-webkit-keyframes ex1
