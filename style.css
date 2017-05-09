@@ -16,7 +16,7 @@
 			font:'Dancing Script', cursive;
 			font-size: 30px;
 			text-align: center;
-			margin: 0px 330px 0px 330px ;
+			margin: 0px 300px 0px 300px ;
 			color:#737373;
 		}
 		img
@@ -133,7 +133,7 @@
 							hr
 							{
 								
-								margin: 0px 330px 0px 330px;
+								margin: 0px 300px 0px 300px;
 							}
 
 
@@ -169,7 +169,7 @@
 		#flipabt,#flipabi,#flipcur,#flipedu
 		{
 			float: left;
-			font-size: 17px;
+			font-size: 21px;
 			margin-top: 1%;
 			color:white;
 			padding-left: 16%;	 
