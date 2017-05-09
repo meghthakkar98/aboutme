@@ -84,7 +84,7 @@
 						#textchange
 						{
 							font-family: "avenir", sans-serif;
-							font-size: 50px;
+							font-size: 65px;
 							text-align: center;
 							word-wrap: 2px;	
 							-webkit-animation-name: ex; 
@@ -172,7 +172,7 @@
 			font-size: 20px;
 			margin-top: 1%;
 			color:white;
-			padding-left: 12%;	 
+			padding-left: 16%;	 
 	
 		}
 
