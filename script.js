@@ -403,20 +403,15 @@ $(document).ready(function(){
         $("#panelabi").hide();
     });
 });
-
-
 //animation for name
 $(document).ready(function(){
 	{
-        var myne = $("#myne"); 
-        myne.animate({fontSize: '60px'}, "slow");
+      $("#myne").animate({fontSize: '75px'}, "slow");
     }
 });
-
 //animation for name for mobile
 $(document).ready(function(){
-	{
-        var myne = $("#mmyne"); 
-        myne.animate({fontSize: '50px'}, "slow");
+	{ 
+      $("myne").animate({fontSize: '50px'}, "slow");
     }
 });
