@@ -412,6 +412,6 @@ $(document).ready(function(){
 //animation for name for mobile
 $(document).ready(function(){
 	{ 
-      $("myne").animate({fontSize: '50px'}, "slow");
+      $("#mmyne").animate({fontSize: '50px'}, "slow");
     }
 });
