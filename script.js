@@ -409,7 +409,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	{
         var myne = $("#myne"); 
-        myne.animate({fontSize: '75px'}, "slow");
+        myne.animate({fontSize: '60px'}, "slow");
     }
 });
 
