@@ -192,3 +192,11 @@ $(document).ready(function(){
         $("#panelabi").hide();
     });
 });
+
+    //animation for name
+$(document).ready(function(){
+	{
+        var myne = $("#myne"); 
+        myne.animate({fontSize: '75px'}, "slow");
+    }
+});
