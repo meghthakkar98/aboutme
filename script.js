@@ -406,7 +406,7 @@ $(document).ready(function(){
 //animation for name
 $(document).ready(function(){
 	{
-      $("#myne").animate({fontSize: '75px'}, "slow");
+      $("#myne").animate({fontSize: '60px'}, "slow");
     }
 });
 //animation for name for mobile
