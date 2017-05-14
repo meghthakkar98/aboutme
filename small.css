@@ -27,7 +27,7 @@
 		}
 		#mmyne
 		{
-			font-family: "avenir", sans-serif;
+			
 			font-size: 20px;
 			text-align: center;
 			color: #3377ff;
@@ -108,32 +108,33 @@
     							to {color: red;}
 							}
 							
-							
 							#textchange1
 							{
 							font-family: 'Roboto', sans-serif;
-							font-size: 39px;
-							text-align: center;
-							word-wrap: 4px;	
-   							-webkit-animation-name: ex1; 
-  							-webkit-animation-duration: 20s; 
-    							animation-name: ex1;
- 							animation-duration: 20s;
+							font-size: 10px;
+							text-align: center;	
 							}
 
-							@-webkit-keyframes ex1
+							#textchange2
 							{
-    							from {color: #3399ff;}
-    							to {color: : black;}
+							font-family: 'Roboto', sans-serif;
+							font-size: 10px;
+							text-align: center;	
 							}
 
-							
-							@keyframes ex1
+							#textchange3
 							{
-    							from {color: #3399ff;}
-    							to {color: black;}
+							font-family: 'Roboto', sans-serif;
+							font-size: 10px;
+							text-align: center;	
 							}
 
+							#textchange4
+							{
+							font-family: 'Roboto', sans-serif;
+							font-size: 10px;
+							text-align: center;	
+							}						
 		#panelabt
 		{
 			background-color: white;			
