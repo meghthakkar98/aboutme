@@ -64,9 +64,9 @@
 			text-align: center;
 			font-size: 28px;
 			-webkit-animation-name: exp1; 
-  			-webkit-animation-duration: 75s; 
+  			-webkit-animation-duration: 25s; 
     		animation-name: exp1;
- 			animation-duration: 75s;
+ 			animation-duration: 25s;
                }
 		@-webkit-keyframes exp1
 		{
