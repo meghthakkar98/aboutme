@@ -17,7 +17,6 @@
 			text-align: center;
 			margin: 0 auto ;
 		}
-		
 		img
 		{
 			height: 200px;
@@ -58,83 +57,50 @@
 			text-align:center;
 			color: #0044cc;
 		}
-		#ahr
+		#textchange
 		{
-			color: #3399ff;
-			text-align: center;
-			font-size: 22px;
-			-webkit-animation-name: exp1; 
-  			-webkit-animation-duration: 25s; 
-    			animation-name: exp1;
- 			animation-duration: 25s;
+		font-family: "avenir", sans-serif;		
+		font-size: 30px;
+		text-align: center;
+		-webkit-animation-name: ex; 
+  		-webkit-animation-duration:25s; 
+    		animation-name: ex;
+ 		animation-duration: 25s;
 		}
-		hr
+		@-webkit-keyframes ex
 		{
-			margin: 0 auto ;
-		}
-		@-webkit-keyframes exp1
-		{
-		from {color: #3399ff;}
+    		from {color: #3399ff;}
     		to {color: : red;}
 		}
-		@keyframes exp1
+		@keyframes ex 			
 		{
     		from {color: #3399ff;}
     		to {color: red;}
-		}	
-
-
-					#textchange
-					{
-							font-family: "avenir", sans-serif;		
-							font-size: 30px;
-							text-align: center;
-							word-wrap: 4px;
-   							-webkit-animation-name: ex; 
-  							-webkit-animation-duration:25s; 
-    							animation-name: ex;
- 							animation-duration: 25s;
-					}
-
-							@-webkit-keyframes ex
-							{
-    							from {color: #3399ff;}
-    							to {color: : red;}
-							}
-
-							@keyframes ex 			
-							{
-    							from {color: #3399ff;}
-    							to {color: red;}
-							}
-							
-							#textchange1
-							{
-							font-family: 'Roboto', sans-serif;
-							font-size: 10px;
-							text-align: center;	
-							}
-
-							#textchange2
-							{
-							font-family: 'Roboto', sans-serif;
-							font-size: 10px;
-							text-align: center;	
-							}
-
-							#textchange3
-							{
-							font-family: 'Roboto', sans-serif;
-							font-size: 10px;
-							text-align: center;	
-							}
-
-							#textchange4
-							{
-							font-family: 'Roboto', sans-serif;
-							font-size: 10px;
-							text-align: center;	
-							}						
+		}
+		#textchange1
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange2
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange3
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange4
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}						
 		#panelabt
 		{
 			background-color: #F8F8F8;			
@@ -163,7 +129,6 @@
 			padding-left: 14%;
 			padding-right: 11%; 
 		}
-
 		#mflipabt,#mflipabi,#mflipcur,#mflipedu
 		{	
 			display: inline-block;
@@ -177,7 +142,6 @@
 		{
 			color:  #3399ff;
 		}
-
 		.mhide
 		{
 			display: none;
