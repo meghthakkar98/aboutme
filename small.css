@@ -50,7 +50,7 @@
 			text-align: center;
 			color: black;
 			word-spacing: 10px;
-			padding-bottom: 25%;
+		
 		}
 		#icon:hover
 		{
@@ -87,7 +87,7 @@
 					#textchange
 					{
 							font-family: "avenir", sans-serif;		
-							font-size: 50px;
+							font-size: 30px;
 							text-align: center;
 							word-wrap: 4px;
    							-webkit-animation-name: ex; 
