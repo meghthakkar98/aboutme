@@ -197,6 +197,106 @@ $(document).ready(function(){
     });
 });
 
+//tab responsive navvvvvv
+//aboutme
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#panelabt").slideDown("slow"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#paneledu").hide();
+    });
+});
+// ability
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#panelabi").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+// curiosity
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#panelcur").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+// education
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#paneledu").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+
+
+
 
 //animation for name
 $(document).ready(function(){
@@ -211,6 +311,14 @@ $(document).ready(function(){
       $("#mmyne").animate({fontSize: '50px'}, "slow");
     }
 });
+
+//animation for name in tablet
+$(document).ready(function(){
+	{ 
+      $("#tmyne").animate({fontSize: '50px'}, "slow");
+    }
+});
+
 
 //animation for header
 $(document).ready(function(){
@@ -238,7 +346,7 @@ $(document).ready(function(){
 });
 
 
-//animation for header in mobile 
+//animation in header for mobile 
 $(document).ready(function(){
 	{
 		$("#textchange1").animate({fontSize: '39px'}, "slow");
@@ -259,6 +367,32 @@ $(document).ready(function(){
 
 $(document).ready(function(){
 	$("#mflipedu").click(function(){
+    	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
+	});		
+});
+
+
+//animation in header for tablet
+$(document).ready(function(){
+	{
+		$("#textchange1").animate({fontSize: '39px'}, "slow");
+	}
+});
+
+$(document).ready(function(){
+	$("#tflipabi").click(function(){
+    	$("#textchange2").animate({fontSize: '39px'}, "slow");	 
+	});		
+});
+
+$(document).ready(function(){
+	$("#tflipcur").click(function(){
+    	$("#textchange3").animate({fontSize: '39px'}, "slow");	 
+	});		
+});
+
+$(document).ready(function(){
+	$("#tflipedu").click(function(){
     	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
 	});		
 });
