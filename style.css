@@ -1,158 +1,159 @@
-
-<!---version 4.0.0.0-->
-<html>
-	<head>
-		<!--Author:Megh Thakkar-->
-		<meta name="keyword" content="Megh,Megh thakkar">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
-		<link rel="icon" href="https://raw.githubusercontent.com/meghthakkar98/aboutme/gh-pages/megh.png">
-		<link href="//fonts.googleapis.com/css?family=Dancing+Script,Roboto" rel="stylesheet">
-		<title> Megh Thakkar </title>
-	</head>
-<body>
+		body
+		{
+	  		background-color: #F8F8F8;
+		}
+		h1
+		{
+			
+			font-size: 20px;
+		
+		}
+		p
+		{
+			color:#737373;
+			word-spacing: 2px;
+			font:'Dancing Script', cursive;
+			font-size: 25px;
+			text-align: center;
+			margin: 0px 250px 0px 250px ;
+			color:#737373;
+		}
+		img
+		{
+			height: 210px;
+			width: 210px ;
+			border-radius:50%;
+			text-align: center;
+		}
+		#myne
+		{
+			font-family: "avenir", sans-serif;
+			font-size: 20px;
+			text-align: center;
+			color: #3377ff;
+			padding-top: 60px;
+		}
+		a
+		{
+			font-family: 'Pacifico', cursive;
+			text-decoration: none;
+			color: #3399ff;
+		}
+		a:hover
+		{
+			text-decoration: none;
+			color: black;
+		}
+		#icon
+		{
+			text-decoration: none;
+			text-align: center;
+			color:black;
+			word-spacing: 10px;
+		}					
+		#icon:hover
+		{
+			text-decoration:none;
+			text-align:center;
+			color:#0044cc;
+		}
 				
-	<!--DESKTOPSITE BAR-->			
-<div id="resnavgi">
-	<div class="mhide">
-		<div class="thide">		
-			<div id="flipabt">
-										<i class="fa fa-user-circle-o" style="font-size:17px"></i><div id="pinnav">AboutMe</div> 
-			</div>
+/*---for name----*/
 
-			<div id="flipabi">
-										<i class="fa fa-bolt" style="font-size:17px"></i><div id="pinnav">Abilities</div>							
-			</div>
+		#textchange
+		{
+		font-family: "avenir", sans-serif;
+		font-size: 48px;
+		text-align: center;	
+		-webkit-animation-name: ex; 
+  		-webkit-animation-duration: 25s; 
+	    	animation-name: ex;
+ 		animation-duration: 25s;
+		}
+		@-webkit-keyframes ex
+		{
+    		from {color: #3399ff;}
+    		to {color: : red;}
+		}
+		@keyframes ex			
+		{
+    		from {color: #3399ff;}
+  		to {color: red;}
+		}
+							/*---for Heading1----*/
+		#textchange1
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange2
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange3
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		#textchange4
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		}
+		hr
+{margin: 0px 250px 0px 250px;}
+		#panelabt
+		{
+			background-color: #F8F8F8;			
+		}
 
-			<div id="flipcur">
-										<i class="fa fa-binoculars" style="font-size:17px"></i><div id="pinnav">Curiosity</div>			
-			</div>
-			<div id="flipedu">
-										<i class="fa fa-book" style="font-size:17px"></i><div id="pinnav">Education</div>
-			</div>
-		</div>			
-	</div>
-</div>
+		#panelabi,#panelcur,#paneledu
+		{
+			display: none;
+			width: 100%;		
+			background-color: #F8F8F8;		
+		}				
 
-	<!--Tab resptab navigatiom-->	
-<div class="deskhide">
-	<div class="mhide">
-		<div id="tabresnavgi">
+		#pinnav
+		{
+			padding-bottom:  0 auto ;	
+		}
+		#resnavgi	
+		{
+			background-color: black;
+			position:fixed;
+			font-family: "avenir", sans-serif;
+			text-align:center;
+			top:0;
+			left: 0;
+			width:100%;
+			display: block;
+			word-spacing: 0 auto;
+		}	
 
-			<div id="tflipabt">
-				<i class="fa fa-user-circle-o" style="font-size:30px"></i><div id="pinnav">AboutMe</div>
-			</div>
+		#flipabt,#flipabi,#flipcur,#flipedu
+		{
+			float: left;
+			font-size: 21px;
+			margin-top: 1%;
+			color:white;
+			padding-left: 16%;	 
+		}
 
-			<div id="tflipabi">
-				<i class="fa fa-bolt" style="font-size:30px"></i><div id="pinnav">Abilities</div>
-			</div>
-			<div id="tflipcur">
-				<i class="fa fa-binoculars" style="font-size:30px"></i><div id="pinnav">Curiosity</div>
-			</div>
-			<div id="tflipedu">
-				<i class="fa fa-book" style="font-size:30px"></i><div id="pinnav">Education</div>
-			</div>
+		#flipabt:hover,#flipabi:hover,#flipcur:hover,#flipedu:hover
+		{
+			color: #3399ff;
+			cursor: pointer;
+		}
 
-        </div>
-	</div>		
-</div>
+ 
+		.deskhide
+		{
+			display: none;
+		}
 
-								<div class="mhide">
-									<div class="thide">
-										<div id="myne">Megh Thakkar
-										</div>
-									</div>
-								</div>
-
-								<div class="mhide">
-									<div class="deskhide">
-										<div id="tmyne">Megh Thakkar
-										</div>
-									</div> 
-								</div>
-								
-								<div class="deskhide">
-									<div class="thide">
-										<div id="mmyne">Megh Thakkar
-										</div>
-									</div>
-								</div>
-	
-
-
-		 
-	<div id="panelabt">	
-			<h1 id="textchange1"><i class="fa fa-user-circle-o" style="font-size:39px"></i> About me: </h1>
-			
-			<center><img src="https://github.com/meghthakkar98/aboutme/blob/gh-pages/me-min.jpg?raw=true" alt="Megh Thakkar"></center><br>
-																    
-			<!---Aboutme-->		
-			<p >Hello!!  My name is <a href="https://www.facebook.com/megh.thakkar.52">Megh Thakkar</a>, I am Front-end Developer and Web Designer from INDIA. I am thinker and dreamer of all things which is related to Web-Designing and digital things . I love my work , I love to play cricket and love to watch live match of Cricket . I watch weird and different things related to Web-Designing </p><br>
-			
-	</div>
-			<!---Ability-->
-
-	<div id="panelabi">		
-			<h1 id="textchange2"><i class="fa fa-bolt" style="font-size:39px"></i> Abilities  </h1> 
-	
-			<p>  I am developing my skill since i got interest in Web-Designing . I see the different websites , I learn from them and I add my special ingredients in it when I develop any webpage or website . I learnt Web-Designing  from <a href="https://www.w3schools.com/"> W3Schools</a> and from others Web-Sites also. I am writing blogs on world most beautiful cities like LasVegas and San Francisco</p><br>
-
-
-			<center><div id="container"></div></center>
-
-	</div>	
-		
-			
-	<!---interest-->
-	<div id="panelcur">	
-			<h1 id="textchange3"><i class="fa fa-binoculars" style="font-size:39px"></i>  Curiosity   </h1>
-
-			<p> I am interested in Web-Developing and Developing in web-Application but I'm really interest in developing ERP (Enterprise resource planning) application which helps business men and soonly I'm  making one of them </p><br>
-			
-	</div>	
-			
-	<!---education-->		
-	<div id="paneledu">	
-				<h1 id="textchange4"><i class="fa fa-book" style="font-size:39px"></i>  Education </h1>
-								
-				<p> In 2013 I have completed my Secondary school and I am doing Diploma in Computer Science in a Polytechnic. Doing hardwork there learning new programming languages and more....   </p><br>
-		
-	</div>	
-
-		<div id="icon">
-				<a id="icon" href="https://www.facebook.com/megh.thakkar.52"><i class="fa fa-facebook-square" style="font-size:36px"></i></a> 
-				<a id="icon" href="https://github.com/meghthakkar98?tab=repositories"><i class="fa fa-github" style="font-size:36px"></i></a>
-				<a id="icon" href="mailto:meghthakkar98@gmail.com"><i class="fa fa-google-plus" style="font-size:36px"></i></a>
-				<a id="icon" href="https://twitter.com/meghthakkar12"><i class="fa fa-twitter" style="font-size:36px"></i></a>
-			</div>	<br>
-	
-	<!--MOBILE SITE BAR-->	
-	
-	<div class="deskhide">
-		<div class="thide">
-		<div id="botresnavgi">
-			<div id="mflipabt">
-				<i class="fa fa-user-circle-o" style="font-size:17px"></i><div id="pinnav">AboutMe</div>
-			</div>
-
-			<div id="mflipabi">
-				<i class="fa fa-bolt" style="font-size:17px"></i><div id="pinnav">Abilities</div>					
-			</div>
-			<div id="mflipcur">
-				<i class="fa fa-binoculars" style="font-size:17px"></i><div id="pinnav">Curiosity</div>		
-			</div>
-			<div id="mflipedu">
-				<i class="fa fa-book" style="font-size:17px"></i><div id="pinnav">Education</div>
-			</div>
-        </div>
-	</div>		
-</div>	
-
-
-<script type="text/javascript" src="script.js"></script>
-<link rel="stylesheet" type="text/css"  media="screen and (min-width: 1010px)" href="style.css">	
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css"  media="screen and (min-width: 0px) and (max-width:700px)"  href="small.css">
-<link rel="stylesheet" type="text/css"  media="screen and (min-width: 700px) and (max-width:1010px)" href="medium.css">
-
-</body>
-</html>
