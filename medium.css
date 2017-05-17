@@ -1,0 +1,163 @@
+    body
+    {
+        background-color: #F8F8F8;
+    }
+    h1
+    {
+      font-family: 'Pacifico', cursive;
+      font-size: 20px;
+    
+    }
+    p
+    {
+      color:#737373;
+      word-spacing: 2px;
+      font:'Dancing Script', cursive;
+      font-size: 25px;
+      text-align: center;
+      padding-left: 60px;
+      margin: 0px 100px 0px 250px ;
+      color:#737373;
+    }
+    img
+    {
+      padding-left: 200px;
+      height: 210px;
+      width: 210px ;
+      text-align: center;
+    }
+    #tmyne
+    {
+      font-family: "avenir", sans-serif;
+      font-size: 20px;
+      text-align: center;
+      color: #3377ff;
+      padding-left: 200px;
+    }
+    a
+    {
+      font-family: 'Pacifico', cursive;
+      text-decoration: none;
+      color: #3399ff;
+    }
+    a:hover
+    {
+      text-decoration: none;
+      color: black;
+    }
+    #icon
+    {
+      margin-left: 80px;
+      padding-left: 10px;  
+      text-decoration: none;
+      text-align: center;
+      color:black;
+      word-spacing: 10px;
+    }         
+    #icon:hover
+    {
+      text-decoration:none;
+      text-align:center;
+      color:#0044cc;
+    }
+        
+/*---for name----*/
+
+    #textchange
+    {
+    font-family: "avenir", sans-serif;
+    font-size: 48px;
+    text-align: center; 
+    -webkit-animation-name: ex; 
+      -webkit-animation-duration: 25s; 
+        animation-name: ex;
+    animation-duration: 25s;
+    }
+    @-webkit-keyframes ex
+    {
+        from {color: #3399ff;}
+        to {color: : red;}
+    }
+    @keyframes ex     
+    {
+        from {color: #3399ff;}
+      to {color: red;}
+    }
+              /*---for Heading1----*/
+    #textchange1
+    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center;
+    padding-left: 190px; 
+    }
+    #textchange2
+    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center; 
+    padding-left: 190px;
+    }
+    #textchange3
+    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center; 
+    padding-left: 190px;
+    }
+    #textchange4
+    {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    text-align: center; 
+    padding-left: 190px;
+    }
+    
+    #panelabt
+    {
+      background-color: #F8F8F8;      
+    }
+
+    #panelabi,#panelcur,#paneledu
+    {
+      display: none;
+      width: 100%;    
+      background-color: #F8F8F8;    
+    }       
+
+    #pinnav
+    {
+      padding-bottom:  0 auto ; 
+    }
+    #tabresnavgi 
+    {
+      background-color: black;
+      position:fixed;
+      font-family: "avenir", sans-serif;
+      text-align:center;
+      height:100%;
+      width:25%;
+      overflow: auto; 
+    } 
+
+    #tflipabt,#tflipabi,#tflipcur,#tflipedu
+    {
+      display: block;
+      float: left;
+      font-size: 30px;
+      color:white;
+      padding:  50px 0px 0px 28px;   
+      
+    }
+
+    #tflipabt:hover,#tflipabi:hover,#tflipcur:hover,#tflipedu:hover
+    {
+      color: #3399ff;
+      cursor: pointer;
+    }
+
+
+.thide
+{
+  display: none;
+}
