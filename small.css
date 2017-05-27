@@ -1,16 +1,16 @@
 	  body
 		{
-	  		background-color: #F8F8F8;
+	  		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5);
 		}
 		h1
 		{
-			font-family: 'Pacifico', cursive;
+				
 			font-size: 22px;
 			text-align: center;
 		}
 		p
 		{
-			color:#737373;
+			color:#4ddbff;
 			word-spacing: 1px;
 			font:'Dancing Script', cursive;
 			font-size: 18px;
@@ -35,7 +35,7 @@
 		a
 		{
 			text-decoration: none;
-			color: #3377ff;	
+			color: #ffffff;	
 			font-family: 'Pacifico', cursive;
 		}
 		a:hover
@@ -47,71 +47,62 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			color: black;
+			color: white;
 			word-spacing: 10px;
-			padding-bottom:40px;
+			padding-bottom: 50px;
 		
 		}
-		#icon:hover
+		#icon:hover		
 		{
 			text-decoration:none;
 			text-align:center;
 			color: #0044cc;
-		}
-		#textchange
-		{
-		font-family: "avenir", sans-serif;		
-		font-size: 30px;
-		text-align: center;
-		-webkit-animation-name: ex; 
-  		-webkit-animation-duration:25s; 
-    		animation-name: ex;
- 		animation-duration: 25s;
-		}
-		@-webkit-keyframes ex
-		{
-    		from {color: #3399ff;}
-    		to {color: : red;}
-		}
-		@keyframes ex 			
-		{
-    		from {color: #3399ff;}
-    		to {color: red;}
 		}
 		#textchange1
 		{
 		font-family: 'Roboto', sans-serif;
 		font-size: 10px;
 		text-align: center;	
+		color: white;
+		}
+		#textchange6
+		{
+		font-family: 'Roboto', sans-serif;
+		font-size: 10px;
+		text-align: center;	
+		color: white;
 		}
 		#textchange2
 		{
 		font-family: 'Roboto', sans-serif;
 		font-size: 10px;
 		text-align: center;	
+		color: white;
 		}
 		#textchange3
 		{
 		font-family: 'Roboto', sans-serif;
 		font-size: 10px;
-		text-align: center;	
+		text-align: center;
+		color: white;	
 		}
 		#textchange4
 		{
 		font-family: 'Roboto', sans-serif;
 		font-size: 10px;
 		text-align: center;	
+		color: white;
 		}						
 		#panelabt
 		{
-			background-color: #F8F8F8;			
+			background-image: : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5)			
 		}
 
 		#panelabi,#panelcur,#paneledu
 		{
 			display: none;
 			width: 100%;		
-			background-color: #F8F8F8;	
+			background-image: : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5)		
 		}
 		#pinnav
 		{
@@ -119,7 +110,8 @@
 		}
 		#botresnavgi	
 		{	
-			background-color: black	;
+			color: #000000;
+			background-color:#1a53ff;
 			position:fixed;
 			font-family: "avenir", sans-serif;
 			bottom:0;
@@ -141,7 +133,7 @@
 		}
 		#mflipabt:hover,#mflipabi:hover,#mflipcur:hover,#mflipedu:hover
 		{
-			color:  #3399ff;
+			color: black;
 		}
 		.mhide
 		{
