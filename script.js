@@ -129,6 +129,10 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+        $("#mflipabt").css("color", "black"); 
+    });
+
+$(document).ready(function(){
     $("#mflipabt").click(function(){
         $("#mflipabt").css("color", "black"); 
     });
