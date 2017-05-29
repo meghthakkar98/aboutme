@@ -52,6 +52,7 @@ $(document).ready(function(){
     });
 });
 
+
 // curiosity
 $(document).ready(function(){
     $("#flipcur").click(function(){
@@ -76,6 +77,7 @@ $(document).ready(function(){
     });
 });
 
+
 // education
 $(document).ready(function(){
     $("#flipedu").click(function(){
@@ -99,6 +101,7 @@ $(document).ready(function(){
         $("#panelabi").hide();
     });
 });
+
 
 // mobile botttom 
 //aboutme
@@ -223,10 +226,36 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipcur").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipedu").css("color", "white"); 
+    });
+});
+
+
 // education
 $(document).ready(function()
 {
-    $("#mflipedu").click(function(){
+    $("#mflipedu").click(function()
+    {
         $("#paneledu").slideDown("slow"); 
     });
 });
@@ -250,26 +279,26 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-    $("#flipedu").click(function(){
-        $("#flipedu").css("color", "black"); 
+    $("#mflipedu").click(function(){
+        $("#mflipedu").css("color", "black"); 
     });
 });
 
 $(document).ready(function(){
-    $("#flipedu").click(function(){
-        $("#flipabt").css("color", "white"); 
+    $("#mflipedu").click(function(){
+        $("#mflipabt").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
-    $("#flipedu").click(function(){
-        $("#flipabi").css("color", "white"); 
+    $("#mflipedu").click(function(){
+        $("#mflipabi").css("color", "white"); 
     });
 });
 
 $(document).ready(function(){
-    $("#flipedu").click(function(){
-        $("#flipcur").css("color", "white"); 
+    $("#mflipedu").click(function(){
+        $("#mflipcur").css("color", "white"); 
     });
 });
 
@@ -370,6 +399,9 @@ $(document).ready(function(){
         $("#panelabi").hide();
     });
 });
+
+
+
 
 
 //animation for name
