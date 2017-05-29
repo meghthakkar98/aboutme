@@ -26,6 +26,8 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+
+
 // ability
 $(document).ready(function(){
     $("#flipabi").click(function(){
@@ -94,7 +96,7 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipedu").click(function(){
-        $("#panelabi	").hide();
+        $("#panelabi").hide();
     });
 });
 
@@ -122,6 +124,32 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipabt").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipcur").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipedu").css("color", "white"); 
+    });
+});
+
+
 // ability
 $(document).ready(function(){
     $("#mflipabi").click(function(){
@@ -145,6 +173,31 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipabi").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipcur").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipedu").css("color", "white"); 
+    });
+});
+
 
 // curiosity
 $(document).ready(function(){
@@ -173,8 +226,7 @@ $(document).ready(function(){
 // education
 $(document).ready(function()
 {
-    $("#mflipedu").click(function()
-    {
+    $("#mflipedu").click(function(){
         $("#paneledu").slideDown("slow"); 
     });
 });
@@ -196,6 +248,31 @@ $(document).ready(function(){
         $("#panelabi").hide();
     });
 });
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipedu").css("color", "black"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipcur").css("color", "white"); 
+    });
+});
+
 
 //tab responsive navvvvvv
 //aboutme
@@ -295,9 +372,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
 //animation for name
 $(document).ready(function(){
 	{
@@ -354,11 +428,11 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-	$("#mflipabi").click(function(){
+	$("#mflipabi").click(function(){			
     	$("#textchange2").animate({fontSize: '39px'}, "slow");	 
 	});		
 });
-
+	
 $(document).ready(function(){
 	$("#mflipcur").click(function(){
     	$("#textchange3").animate({fontSize: '39px'}, "slow");	 
