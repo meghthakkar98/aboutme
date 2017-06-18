@@ -1,7 +1,8 @@
 	  body
 		{
-	  		background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5);
+	  		background: linear-gradient(to bottom, #000000 1%, #ffffff 105%)
 		}
+
 		h1
 		{
 				
