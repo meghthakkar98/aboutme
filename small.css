@@ -1,6 +1,6 @@
 	  body
 		{
-	  		background: linear-gradient(to bottom, #000000 1%, #ffffff 105%)
+	  		background: linear-gradient(to top, #ffffff 0%, #0066ff 100%)		
 		}
 
 		h1
@@ -48,7 +48,7 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			color:#CC66FF;
+			color:#000000;
 			word-spacing: 10px;
 			padding-bottom: 50px;
 		
