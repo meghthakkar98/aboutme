@@ -48,7 +48,7 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			color: white;
+			color:  linear-gradient(to bottom, #cc00cc 0%, #3399ff 100%);
 			word-spacing: 10px;
 			padding-bottom: 50px;
 		
