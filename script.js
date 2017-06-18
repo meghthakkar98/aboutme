@@ -27,6 +27,34 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+        $("#flipabt").css("color", "#3399ff"); 
+    });
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipabt").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipcur").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipedu").css("color", "white"); 
+    });
+});
+
 
 // ability
 $(document).ready(function(){
@@ -52,6 +80,29 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#flipabi").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#flipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#flipcur").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#flipedu").css("color", "white"); 
+    });
+});
 
 // curiosity
 $(document).ready(function(){
@@ -77,6 +128,29 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#flipcur").click(function(){
+        $("#flipcur").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcur").click(function(){
+        $("#flipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcur").click(function(){
+        $("#flipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcur").click(function(){
+        $("#flipedu").css("color", "white"); 
+    });
+});
 
 // education
 $(document).ready(function(){
@@ -102,6 +176,30 @@ $(document).ready(function(){
     });
 });
 
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipedu").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipabt").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipabi").css("color", "white"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipcur").css("color", "white"); 
+    });
+});
 
 // mobile botttom 
 //aboutme
