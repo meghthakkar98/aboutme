@@ -107,14 +107,12 @@
 		}
 		#botresnavgi	
 		{	
-			color: #000000;
+			text-align: center;
 			background-color:#3399ff;
 			position:fixed;
-			font-family: "avenir", sans-serif;
 			bottom:0;
 			left:0;
-			width:100%;
-			text-align: center;	
+			width:100%;	
 			padding-top:3%;
 			padding-right: 0 auto;
 			padding-bottom:3%;
@@ -139,17 +137,14 @@
 
 		#mflipabt,#mflipabi,#mflipcur,#mflipedu
 		{	
+			font-family: "avenir", sans-serif;
 			display: inline-block;
 			float: left;
 			font-size: 15px;
-			color:white;
-			padding-top: 0 auto;	 
+			color: #000000;	 
 			margin:2%;
 		}
-		#mflipabt:hover,#mflipabi:hover,#mflipcur:hover,#mflipedu:hover
-		{
-			color: black;
-		}
+
 		.mhide
 		{
 			display: none;
