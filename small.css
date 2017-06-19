@@ -115,9 +115,9 @@
 			left:0;
 			width:100%;
 			text-align: center;	
-			word-spacing: 0 auto;
+			padding-top:3%;
 			padding-left: 12%;
-			padding-right: 11%; 
+			padding-right: 0 auto; 
 		}
 
 		
