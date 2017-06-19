@@ -44,21 +44,17 @@
 			text-decoration: none;
 			color: black;
 		}
+
 		#icon
 		{
 			text-decoration: none;
 			text-align: center;
-			color: #ff0066;
+			color: #660066;
 			word-spacing: 10px;
 			padding-bottom: 50px;
 		
 		}
-		#icon:hover		
-		{
-			text-decoration:none;
-			text-align:center;
-			color: #0044cc;
-		}
+
 		#textchange1
 		{
 		font-family: 'Roboto', sans-serif;
