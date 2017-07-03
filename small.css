@@ -93,7 +93,7 @@
 		}						
 		#panelabt
 		{
-			background: linear-gradient(to right, #3399ff 0%, #00ffcc 100%);
+			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
 
 		#panelabi,#panelcur,#paneledu
@@ -109,7 +109,7 @@
 		#botresnavgi	
 		{	
 			text-align: center;
-			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
+			background: linear-gradient(to right, #3399ff 0%, #00ffcc 100%);
 			position:fixed;
 			bottom:0;
 			left:0;
