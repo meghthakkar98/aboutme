@@ -6,7 +6,7 @@
 		h1
 		{
 				
-			font-size: 22px;
+			font-size: 18px;
 			text-align: center;
 		}
 		p
@@ -23,12 +23,12 @@
 			height: 200px;
 			width: 200px ;
 			border-radius:50%;
-			text-align: center;
+			align: center;
 		}
 		#mmyne
 		{
 			font-family: 'Dancing Script', cursive;
-			font-size: 24px;
+			font-size: 18px;
 			text-align: center;
 			color: #ff0066;
 			margin:0 auto;
@@ -50,7 +50,7 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			color: #ffff00;
+			color: #ffffff;
 			word-spacing: 10px;
 			padding-bottom: 90px;
 		
