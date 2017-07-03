@@ -93,14 +93,14 @@
 		}						
 		#panelabt
 		{
-			background-image: : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5)			
+			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
 
 		#panelabi,#panelcur,#paneledu
 		{
 			display: none;
 			width: 100%;		
-			background-image: : url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvlZXbzuexek8W-_b21vRt6aHqaRRWjCOSnzczZ_31UswNiEL5)		
+			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
 		#pinnav
 		{
@@ -109,7 +109,7 @@
 		#botresnavgi	
 		{	
 			text-align: center;
-			background-color:#3399ff;
+			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 			position:fixed;
 			bottom:0;
 			left:0;
