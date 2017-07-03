@@ -554,32 +554,6 @@ $(document).ready(function(){
 });
 
 
-//animation in header for mobile 
-$(document).ready(function(){
-	{
-		$("#textchange1").animate({fontSize: '25px'}, "slow");
-	}
-});
-
-$(document).ready(function(){
-	$("#mflipabi").click(function(){			
-    	$("#textchange2").animate({fontSize: '25px'}, "slow");	 
-	});		
-});
-	
-$(document).ready(function(){
-	$("#mflipcur").click(function(){
-    	$("#textchange3").animate({fontSize: '25px'}, "slow");	 
-	});		
-});
-
-$(document).ready(function(){
-	$("#mflipedu").click(function(){
-    	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
-	});		
-});
-
-
 //animation in header for tablet
 $(document).ready(function(){
 	{
@@ -602,5 +576,30 @@ $(document).ready(function(){
 $(document).ready(function(){
 	$("#tflipedu").click(function(){
     	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
+	});		
+});
+
+//animation in header for mobile 
+$(document).ready(function(){
+	{
+		$("#textchange1").animate({fontSize: '25px'}, "slow");
+	}
+});
+
+$(document).ready(function(){
+	$("#mflipabi").click(function(){			
+    	$("#textchange2").animate({fontSize: '25px'}, "slow");	 
+	});		
+});
+	
+$(document).ready(function(){
+	$("#mflipcur").click(function(){
+    	$("#textchange3").animate({fontSize: '25px'}, "slow");	 
+	});		
+});
+
+$(document).ready(function(){
+	$("#mflipedu").click(function(){
+    	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
