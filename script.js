@@ -516,7 +516,7 @@ $(document).ready(function(){
 //animation for name in mobile
 $(document).ready(function(){
 	{ 
-      $("#mmyne").animate({fontSize: '50px'}, "slow");
+      $("#mmyne").animate({fontSize: '30px'}, "slow");
     }
 });
 
@@ -557,25 +557,25 @@ $(document).ready(function(){
 //animation in header for mobile 
 $(document).ready(function(){
 	{
-		$("#textchange1").animate({fontSize: '39px'}, "slow");
+		$("#textchange1").animate({fontSize: '25px'}, "slow");
 	}
 });
 
 $(document).ready(function(){
 	$("#mflipabi").click(function(){			
-    	$("#textchange2").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange2").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 	
 $(document).ready(function(){
 	$("#mflipcur").click(function(){
-    	$("#textchange3").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange3").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
 $(document).ready(function(){
 	$("#mflipedu").click(function(){
-    	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
