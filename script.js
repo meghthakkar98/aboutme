@@ -531,7 +531,7 @@ $(document).ready(function(){
 //animation for header
 $(document).ready(function(){
 	{
-		$("#textchange1").animate({fontSize: '39px'}, "slow");
+		$(".textchange1").animate({fontSize: '39px'}, "slow");
 	}
 });
 
