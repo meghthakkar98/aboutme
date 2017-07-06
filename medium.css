@@ -1,6 +1,6 @@
     body
     {
-        background-color: #F8F8F8;
+        background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
     }
     h1
     {
@@ -24,26 +24,26 @@
       padding-left: 200px;
       height: 210px;
       width: 210px ;
-      text-align: center;
+      align: center;
     }
     #tmyne
     {
       font-family: "avenir", sans-serif;
       font-size: 20px;
       text-align: center;
-      color: #3377ff;
+      color: #ffffff;
       padding-left: 200px;
     }
     a
     {
       font-family: 'Pacifico', cursive;
       text-decoration: none;
-      color: #3399ff;
+      color: #ffffff;
     }
     a:hover
     {
       text-decoration: none;
-      color: black;
+      color: #ffffff;
     }
     #icon
     {
@@ -51,14 +51,14 @@
       padding-left: 10px;  
       text-decoration: none;
       text-align: center;
-      color:black;
+      color:#ffffff;
       word-spacing: 10px;
     }         
     #icon:hover
     {
       text-decoration:none;
       text-align:center;
-      color:#0044cc;
+      color:#000000;
     }
         
 /*---for name----*/
@@ -115,14 +115,14 @@
     
     #panelabt
     {
-      background-color: #F8F8F8;      
+      background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);      
     }
 
     #panelabi,#panelcur,#paneledu
     {
       display: none;
       width: 100%;    
-      background-color: #F8F8F8;    
+      background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);   
     }       
 
     #pinnav
@@ -151,13 +151,6 @@
       padding:  50px 0px 0px 28px;   
       
     }
-
-    #tflipabt:hover,#tflipabi:hover,#tflipcur:hover,#tflipedu:hover
-    {
-      color: #3399ff;
-      cursor: pointer;
-    }
-
 
 .thide
 {
