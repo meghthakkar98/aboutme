@@ -531,25 +531,25 @@ $(document).ready(function(){
 //animation for header
 $(document).ready(function(){
 	{
-		$(".textchange1").animate({fontSize: '39px'}, "slow");
+		$(".textchange1").animate({fontSize: '25px'}, "slow");
 	}
 });
 
 $(document).ready(function(){
 	$("#flipabi").click(function(){
-    	$("#textchange2").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange2").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
 $(document).ready(function(){
 	$("#flipcur").click(function(){
-    	$("#textchange3").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange3").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
 $(document).ready(function(){
 	$("#flipedu").click(function(){
-    	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
@@ -557,25 +557,25 @@ $(document).ready(function(){
 //animation in header for tablet
 $(document).ready(function(){
 	{
-		$("#textchange1").animate({fontSize: '39px'}, "slow");
+		$("#textchange1").animate({fontSize: '25px'}, "slow");
 	}
 });
 
 $(document).ready(function(){
 	$("#tflipabi").click(function(){
-    	$("#textchange2").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange2").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
 $(document).ready(function(){
 	$("#tflipcur").click(function(){
-    	$("#textchange3").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange3").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
 $(document).ready(function(){
 	$("#tflipedu").click(function(){
-    	$("#textchange4").animate({fontSize: '39px'}, "slow");	 
+    	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
 
