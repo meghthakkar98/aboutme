@@ -55,32 +55,11 @@
 		{
 			text-decoration:none;
 			text-align:center;
-			color:#0044cc;
+			color:#000000;
 		}
 				
-/*---for name----*/
-
-		#textchange
-		{
-		font-family: "avenir", sans-serif;
-		font-size: 48px;
-		text-align: center;	
-		-webkit-animation-name: ex; 
-  		-webkit-animation-duration: 25s; 
-	    	animation-name: ex;
- 		animation-duration: 25s;
-		}
-		@-webkit-keyframes ex
-		{
-    		from {color: #3399ff;}
-    		to {color: : red;}
-		}
-		@keyframes ex			
-		{
-    		from {color: #3399ff;}
-  		to {color: red;}
-		}
-							/*---for Heading1----*/
+		/*---for Heading1----*/
+		
 		#textchange1
 		{
 		font-family: 'Roboto', sans-serif;
@@ -105,8 +84,7 @@
 		font-size: 10px;
 		text-align: center;	
 		}
-		hr
-{margin: 0px 250px 0px 250px;}
+
 		#panelabt
 		{
 			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);			
