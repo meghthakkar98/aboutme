@@ -10,7 +10,7 @@
     }
     p
     {
-      color:#737373;
+      color:#000000;
       word-spacing: 2px;
       font:'Dancing Script', cursive;
       font-size: 25px;
@@ -40,11 +40,6 @@
       text-decoration: none;
       color: #ffffff;
     }
-    a:hover
-    {
-      text-decoration: none;
-      color: #ffffff;
-    }
     #icon
     {
       margin-left: 80px;
@@ -54,36 +49,10 @@
       color:#ffffff;
       word-spacing: 10px;
     }         
-    #icon:hover
-    {
-      text-decoration:none;
-      text-align:center;
-      color:#000000;
-    }
-        
-/*---for name----*/
+    
+    
+    /*---for Heading1----*/
 
-    #textchange
-    {
-    font-family: "avenir", sans-serif;
-    font-size: 48px;
-    text-align: center; 
-    -webkit-animation-name: ex; 
-      -webkit-animation-duration: 25s; 
-        animation-name: ex;
-    animation-duration: 25s;
-    }
-    @-webkit-keyframes ex
-    {
-        from {color: #3399ff;}
-        to {color: : red;}
-    }
-    @keyframes ex     
-    {
-        from {color: #3399ff;}
-      to {color: red;}
-    }
-              /*---for Heading1----*/
     #textchange1
     {
     font-family: 'Roboto', sans-serif;
