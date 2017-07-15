@@ -38,13 +38,16 @@
 		a
 		{
 			text-decoration: none;
-			color: #ffffff;	
 			font-family: 'Merienda One', cursive;
+			background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
+  			color: transparent;
+            -webkit-background-clip: text;
+  			background-clip: text;
 		}
 		a:hover
 		{
 			text-decoration: none;
-			color: black;
+			color: #ffffff;
 		}
 
 		#icon
