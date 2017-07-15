@@ -41,10 +41,7 @@
     {
       font-family: 'Merienda One', cursive;
       text-decoration: none;
-      background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
-      color: transparent;
-      -webkit-background-clip: text;
-      background-clip: text;
+      color: #ffffff;
     }
     #icon
     {
@@ -98,7 +95,7 @@
 
     #panelabi,#panelcur,#paneledu
     {
-      display: none;
+       display: none;
       width: 100%;    
       background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);   
     }       
@@ -111,7 +108,7 @@
     {
       top:0;
       left:0;
-      background-color: black;
+      background-color: #000000;
       position:fixed;
       font-family: 'Sintony', sans-serif;
       text-align:center;
