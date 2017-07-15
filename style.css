@@ -39,7 +39,10 @@
 		{
 			font-family: 'Merienda One', cursive;
 			text-decoration: none;
-			color: #ffffff;
+			background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
+  			color: transparent;
+            -webkit-background-clip: text;
+  			background-clip: text;
 		}
 		a:hover
 		{
@@ -50,7 +53,7 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			word-spacing: 10px;
+			word-spacing:50px;
 		}					
 		#icon:hover
 		{
