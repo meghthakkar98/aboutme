@@ -1,4 +1,4 @@
-		body
+	body
 		{
 	  		background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
@@ -48,7 +48,6 @@
 		{
 			text-decoration: none;
 			text-align: center;
-			color:#ffffff;
 			word-spacing: 10px;
 		}					
 		#icon:hover
@@ -59,7 +58,10 @@
 		}
 				
 		/*---for Heading1----*/
-		
+		.cen{
+			text-align: center;
+		}
+
 		#textchange1
 		{
 		font-family: 'Roboto', sans-serif;
@@ -111,16 +113,15 @@
 			left: 0;
 			width:100%;
 			display: block;
-			word-spacing: 0 auto;
 		}	
 
 		#flipabt,#flipabi,#flipcur,#flipedu
 		{
 			float: left;
 			font-size: 21px;
-			margin-top: 1%;
+			margin-top: 0.5%;
 			color:white;
-			padding-left: 16%;	 
+			padding-left: 15%;	 
 		}
 
 		#flipabt:hover,#flipabi:hover,#flipcur:hover,#flipedu:hover
