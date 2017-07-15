@@ -1,6 +1,6 @@
 		body
 		{
-		background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
+			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
 
 		h1
@@ -12,7 +12,7 @@
 		{
 			color:#000000;
 			word-spacing: 1px;
-			font:'Dancing Script', cursive;
+			font-family: 'Sintony', sans-serif;
 			font-size: 16px;
 			text-align: center;
 			margin: 0 auto ;
@@ -25,12 +25,12 @@
 		}
 		#mmyne
 		{
-			font-family: 'Dancing Script', cursive;
+			font-family: 'Merienda One', cursive;
 			font-size: 1px;
 			text-align: center;
 			margin:0 auto;
 			margin-top: 0px;
-			background-image: linear-gradient(to left, #ffff00 0%, #ff0000 100%);
+			background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
   			color: transparent;
             -webkit-background-clip: text;
   			background-clip: text;
@@ -39,7 +39,7 @@
 		{
 			text-decoration: none;
 			color: #ffffff;	
-			font-family: 'Pacifico', cursive;
+			font-family: 'Merienda One', cursive;
 		}
 		a:hover
 		{
@@ -59,31 +59,31 @@
 
 		#textchange1
 		{
-		font-family: 'Roboto', sans-serif;
-		font-size: 1px;
-		text-align: center;	
-		color: white;
+			font-family: 'Sintony', sans-serif;
+			font-size: 1px;
+			text-align: center;	
+			color: white;
 		}
 		#textchange2
 		{
-		font-family: 'Roboto', sans-serif;
-		font-size: 1px;
-		text-align: center;	
-		color: white;
+			font-family: 'Sintony', sans-serif;
+			font-size: 1px;
+			text-align: center;	
+			color: white;
 		}
 		#textchange3
 		{
-		font-family: 'Roboto', sans-serif;
-		font-size: 1px;
-		text-align: center;
-		color: white;	
+			font-family: 'Sintony', sans-serif;	
+			font-size: 1px;
+			text-align: center;
+			color: white;	
 		}
 		#textchange4
 		{
-		font-family: 'Roboto', sans-serif;
-		font-size: 1px;
-		text-align: center;	
-		color: white;
+			font-family: 'Sintony', sans-serif;
+			font-size: 1px;
+			text-align: center;	
+			color: white;
 		}						
 		#panelabt
 		{
@@ -133,7 +133,7 @@
 
 		#mflipabt,#mflipabi,#mflipcur,#mflipedu
 		{	
-			font-family: "avenir", sans-serif;
+			font-family: 'Sintony', sans-serif;
 			display: inline-block;
 			float: left;
 			font-size: 15px;
