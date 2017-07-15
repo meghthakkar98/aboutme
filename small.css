@@ -38,16 +38,13 @@
 		a
 		{
 			text-decoration: none;
+			color: #ffffff;	
 			font-family: 'Merienda One', cursive;
-			background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
-  			color: transparent;
-            -webkit-background-clip: text;
-  			background-clip: text;
 		}
 		a:hover
 		{
 			text-decoration: none;
-			color: #ffffff;
+			color: #000000;
 		}
 
 		#icon
@@ -65,28 +62,28 @@
 			font-family: 'Sintony', sans-serif;
 			font-size: 1px;
 			text-align: center;	
-			color: white;
+			color: #ffffff;
 		}
 		#textchange2
 		{
 			font-family: 'Sintony', sans-serif;
 			font-size: 1px;
 			text-align: center;	
-			color: white;
+			color: #ffffff;
 		}
 		#textchange3
 		{
 			font-family: 'Sintony', sans-serif;	
 			font-size: 1px;
 			text-align: center;
-			color: white;	
+			color: #ffffff;	
 		}
 		#textchange4
 		{
 			font-family: 'Sintony', sans-serif;
 			font-size: 1px;
 			text-align: center;	
-			color: white;
+			color: #ffffff;
 		}						
 		#panelabt
 		{
