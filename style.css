@@ -30,7 +30,7 @@
 			font-size: 20px;
 			text-align: center;
 			padding-top: 60px;
-			background-image: linear-gradient(to left, #ffff00 0%, #ff0066 100%);
+			background-image: linear-gradient(to bottom, #ff00ff 0%, #ffff00 100%);
   			color: transparent;
             -webkit-background-clip: text;
   			background-clip: text;
