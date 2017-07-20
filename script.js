@@ -26,6 +26,12 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#panelski").hide();
+    });
+});
+
 
 $(document).ready(function(){
         $("#flipabt").css("color", "#3399ff"); 
@@ -39,19 +45,24 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipabi").css("color", "white"); 
+        $("#flipabi").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipcur").css("color", "white"); 
+        $("#flipcur").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabt").click(function(){
-        $("#flipedu").css("color", "white"); 
+        $("#flipedu").css("color", "#ffffff"); 
+    });
+});
+$(document).ready(function(){
+    $("#flipabt").click(function(){
+        $("#flipski").css("color", "#ffffff"); 
     });
 });
 
@@ -79,6 +90,11 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#panelski").hide();
+    });
+});
 
 $(document).ready(function(){
     $("#flipabi").click(function(){
@@ -88,19 +104,25 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipabi").click(function(){
-        $("#flipabt").css("color", "white"); 
+        $("#flipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabi").click(function(){
-        $("#flipcur").css("color", "white"); 
+        $("#flipcur").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipabi").click(function(){
-        $("#flipedu").css("color", "white"); 
+        $("#flipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipabi").click(function(){
+        $("#flipski").css("color", "#ffffff"); 
     });
 });
 
@@ -130,25 +152,37 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipcur").click(function(){
+        $("#panelski").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcur").click(function(){
         $("#flipcur").css("color", "#3399ff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcur").click(function(){
-        $("#flipabt").css("color", "white"); 
+        $("#flipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcur").click(function(){
-        $("#flipabi").css("color", "white"); 
+        $("#flipabi").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipcur").click(function(){
-        $("#flipedu").css("color", "white"); 
+        $("#flipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipcur").click(function(){
+        $("#flipski").css("color", "#ffffff"); 
     });
 });
 
@@ -173,6 +207,12 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#flipedu").click(function(){
         $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#panelski").hide();
     });
 });
 
@@ -185,21 +225,89 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#flipedu").click(function(){
-        $("#flipabt").css("color", "white"); 
+        $("#flipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipedu").click(function(){
-        $("#flipabi").css("color", "white"); 
+        $("#flipabi").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#flipedu").click(function(){
-        $("#flipcur").css("color", "white"); 
+        $("#flipcur").css("color", "#ffffff"); 
     });
 });
+
+$(document).ready(function(){
+    $("#flipedu").click(function(){
+        $("#flipski").css("color", "#ffffff"); 
+    });
+});
+
+//skills
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#panelski").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#flipski").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#flipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#flipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#flipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#flipski").click(function(){
+        $("#flipedu").css("color", "#ffffff"); 
+    });
+});
+
 
 // mobile botttom 
 //aboutme
@@ -208,6 +316,7 @@ $(document).ready(function(){
         $("#panelabt").slideDown("slow"); 
     });
 });
+
 $(document).ready(function(){
     $("#mflipabt").click(function(){
         $("#panelabi").hide();
@@ -225,32 +334,43 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#panelski").hide();
+    });
+});
+
 
 $(document).ready(function(){
-        $("#mflipabt").css("color", "black"); 
+        $("#mflipabt").css("color", "#000000"); 
     });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipabt").css("color", "black"); 
+        $("#mflipabt").css("color", "#000000"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipabi").css("color", "white"); 
+        $("#mflipabi").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipcur").css("color", "white"); 
+        $("#mflipcur").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabt").click(function(){
-        $("#mflipedu").css("color", "white"); 
+        $("#mflipedu").css("color", "#ffffff"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipabt").click(function(){
+        $("#mflipski").css("color", "#ffffff"); 
     });
 });
 
@@ -278,31 +398,41 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
-
 $(document).ready(function(){
     $("#mflipabi").click(function(){
-        $("#mflipabi").css("color", "black"); 
+        $("#panelski").hide();
     });
 });
 
 $(document).ready(function(){
     $("#mflipabi").click(function(){
-        $("#mflipabt").css("color", "white"); 
+        $("#mflipabi").css("color", "#000000"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabi").click(function(){
-        $("#mflipcur").css("color", "white"); 
+        $("#mflipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipabi").click(function(){
-        $("#mflipedu").css("color", "white"); 
+        $("#mflipcur").css("color", "#ffffff"); 
     });
 });
 
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipabi").click(function(){
+        $("#mflipski").css("color", "#ffffff"); 
+    });
+});
 
 // curiosity
 $(document).ready(function(){
@@ -330,38 +460,46 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipcur").click(function(){
-        $("#mflipcur").css("color", "black"); 
+        $("#panelski").hide();
     });
 });
 
 $(document).ready(function(){
     $("#mflipcur").click(function(){
-        $("#mflipabt").css("color", "white"); 
+        $("#mflipcur").css("color", "#000000"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipcur").click(function(){
-        $("#mflipabi").css("color", "white"); 
+        $("#mflipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipcur").click(function(){
-        $("#mflipedu").css("color", "white"); 
+        $("#mflipabi").css("color", "#ffffff"); 
     });
 });
 
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipcur").click(function(){
+        $("#mflipski").css("color", "#ffffff"); 
+    });
+});
 
 // education
-$(document).ready(function()
-{
-    $("#mflipedu").click(function()
-    {
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
         $("#paneledu").slideDown("slow"); 
     });
 });
-
 $(document).ready(function(){
     $("#mflipedu").click(function(){
         $("#panelabt").hide();
@@ -382,25 +520,99 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#mflipedu").click(function(){
-        $("#mflipedu").css("color", "black"); 
+        $("#panelski").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#mflipedu").css("color", "#000000"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipedu").click(function(){
-        $("#mflipabt").css("color", "white"); 
+        $("#mflipabt").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipedu").click(function(){
-        $("#mflipabi").css("color", "white"); 
+        $("#mflipabi").css("color", "#ffffff"); 
     });
 });
 
 $(document).ready(function(){
     $("#mflipedu").click(function(){
-        $("#mflipcur").css("color", "white"); 
+        $("#mflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipedu").click(function(){
+        $("#mflipski").css("color", "#ffffff"); 
+    });
+});
+
+//skills
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#panelski").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#mflipski").css("color", "#000000"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#mflipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#mflipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#mflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#mflipski").click(function(){
+        $("#mflipedu").css("color", "#ffffff"); 
     });
 });
 
@@ -430,6 +642,47 @@ $(document).ready(function(){
         $("#paneledu").hide();
     });
 });
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#panelski").hide();
+    });
+});
+
+
+$(document).ready(function(){
+        $("#tflipabt").css("color", "#3399ff"); 
+    });
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#tflipabt").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#tflipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#tflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#tflipedu").css("color", "#ffffff"); 
+    });
+});
+$(document).ready(function(){
+    $("#tflipabt").click(function(){
+        $("#tflipski").css("color", "#ffffff"); 
+    });
+});
+
+
 // ability
 $(document).ready(function(){
     $("#tflipabi").click(function(){
@@ -451,6 +704,41 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#tflipabi").click(function(){
         $("#paneledu").hide();
+    });
+});
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#panelski").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#tflipabi").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#tflipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#tflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#tflipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipabi").click(function(){
+        $("#tflipski").css("color", "#ffffff"); 
     });
 });
 
@@ -478,6 +766,42 @@ $(document).ready(function(){
     });
 });
 
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#panelski").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#tflipcur").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#tflipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#tflipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#tflipedu").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipcur").click(function(){
+        $("#tflipski").css("color", "#ffffff"); 
+    });
+});
+
 // education
 $(document).ready(function(){
     $("#tflipedu").click(function(){
@@ -499,6 +823,43 @@ $(document).ready(function(){
 $(document).ready(function(){
     $("#tflipedu").click(function(){
         $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#panelski").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#tflipedu").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#tflipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#tflipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#tflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipedu").click(function(){
+        $("#tflipski").css("color", "#ffffff"); 
     });
 });
 
@@ -552,6 +913,72 @@ $(document).ready(function(){
     	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
+$(document).ready(function(){
+	$("#flipedu").click(function(){
+    	$("#textchange5").animate({fontSize: '25px'}, "slow");	 
+	});		
+});
+//skills
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#panelski").slideDown("slow"); 
+    });
+});
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#panelabt").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#panelcur").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#panelabi").hide();
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#paneledu").hide();
+    });
+});
+
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#tflipski").css("color", "#3399ff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#tflipabt").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#tflipabi").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#tflipcur").css("color", "#ffffff"); 
+    });
+});
+
+$(document).ready(function(){
+    $("#tflipski").click(function(){
+        $("#tflipedu").css("color", "#ffffff"); 
+    });
+});
+
 
 
 //animation in header for tablet
@@ -579,6 +1006,12 @@ $(document).ready(function(){
 	});		
 });
 
+$(document).ready(function(){
+	$("#tflipedu").click(function(){
+    	$("#textchange5").animate({fontSize: '25px'}, "slow");	 
+	});		
+});
+
 //animation in header for mobile 
 $(document).ready(function(){
 	{
@@ -603,3 +1036,19 @@ $(document).ready(function(){
     	$("#textchange4").animate({fontSize: '25px'}, "slow");	 
 	});		
 });
+
+$(document).ready(function(){
+	$("#mflipedu").click(function(){
+    	$("#textchange5").animate({fontSize: '25px'}, "slow");	 
+	});		
+});
+
+
+//progress bars
+
+$(document).ready(function(){
+        		$('.html').animate({width:'80%'},2000);
+        		$('.css').animate({width:'70%'},2000);
+        		$('.js').animate({width:'35%'},2000);
+        		$('.php').animate({width:'50%'},2000);
+        	});
