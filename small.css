@@ -13,14 +13,14 @@
 			color:#000000;
 			word-spacing: 1px;
 			font-family: 'Sintony', sans-serif;
-			font-size: 16px;
+			font-size: 14px;
 			text-align: center;
 			margin: 0 auto ;
 		}
 		img
 		{
-			height: 200px;
-			width: 200px;
+			height: 130px;
+			width: 130px;
 			border-radius:5%;
 		}
 		#mmyne
@@ -42,7 +42,7 @@
 			font-family: 'Merienda One', cursive;
 		}
 		a:hover
-		{
+		{	
 			text-decoration: none;
 			color: #000000;
 		}
@@ -84,13 +84,21 @@
 			font-size: 1px;
 			text-align: center;	
 			color: #ffffff;
-		}						
+		}
+		#textchange5
+		{
+			font-family: 'Sintony', sans-serif;
+			font-size: 1px;
+			text-align: center;	
+			color: #ffffff;
+		}
+								
 		#panelabt
 		{
 			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
 		}
 
-		#panelabi,#panelcur,#paneledu
+		#panelabi,#panelcur,#paneledu,#panelski
 		{
 			display: none;
 			width: 100%;		
@@ -108,10 +116,9 @@
 			bottom:0;
 			left:0;
 			width:100%;	
-			padding-top:3%;
-			padding-right: 0 auto;
-			padding-bottom:3%;
-			opacity: 5%;
+			padding-top:2%;
+			padding-bottom:2%;
+			
 		}
 
 		
@@ -127,18 +134,18 @@
 		{
 			#botresnavgi
 			{
-				padding-left: 9%;
+				padding-left: 7%;
 			}
 		}
 
-		#mflipabt,#mflipabi,#mflipcur,#mflipedu
+		#mflipabt,#mflipabi,#mflipcur,#mflipedu,#mflipski
 		{	
 			font-family: 'Sintony', sans-serif;
 			display: inline-block;
 			float: left;
-			font-size: 15px;
+			font-size: 12px;
 			color: #ffffff;	 
-			margin:2%;
+			margin: 2.2%;
 		}
 
 		.mhide
