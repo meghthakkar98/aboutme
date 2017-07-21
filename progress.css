@@ -29,7 +29,7 @@
         	padding-left: 10px;
         	float: left;
         	font-weight: bold;
-        	color: #fff;
+        	color: #000;
         	line-height: 2.5;
         	z-index: 10000;
         	border-top-left-radius: 5px;
@@ -57,37 +57,37 @@
         	
         .htmlColor
         {
-        	background: #33cc33;
+        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
 
         .cssColor
         {
-        	background: #33cc33;
+        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
         .jsColor
         {
-        	background: #33cc33;
+        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
         .phpColor
         {
-        	background: #33cc33;
+        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
         
         .html
         {
-        	background: #33cc33;
+                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
         .css
         {
-        	background: #33cc33;
+        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }       
         .js
         {
-        	background: #33cc33;
+                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
         .php
         {
-        	background: #33cc33;
+                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
         }
 
         @media (max-width: 720px) {
