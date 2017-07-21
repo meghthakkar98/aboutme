@@ -30,10 +30,7 @@
 			font-size: 20px;
 			text-align: center;
 			padding-top: 60px;
-			background-image: linear-gradient(to bottom, #ff00ff 0%, #ffff00 100%);
-  			color: transparent;
-            -webkit-background-clip: text;
-  			background-clip: text;
+			color: #000000;	
 		}
 		a
 		{
@@ -148,11 +145,4 @@
 			display: none;
 		}
 
-		#ch{
-			background-image: linear-gradient(to bottom, #ff00ff 0%, #ffff00 100%);
-  			color: transparent;
-            		-webkit-background-clip: text;
-  			background-clip: text;
-  			text-align: center;
-		}
 
