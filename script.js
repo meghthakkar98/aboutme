@@ -864,9 +864,6 @@ $(document).ready(function(){
 });
 
 
-
-
-
 //animation for name
 $(document).ready(function(){
 	{
@@ -877,7 +874,7 @@ $(document).ready(function(){
 //animation for name in mobile
 $(document).ready(function(){
 	{ 
-      $("#mmyne").animate({fontSize: '40px'}, "slow");
+      $("#mmyne").animate({fontSize: '30px'}, "slow");
     }
 });
 
@@ -889,7 +886,9 @@ $(document).ready(function(){
 });
 
 
+
 //animation for header
+
 $(document).ready(function(){
 	{
 		$(".textchange1").animate({fontSize: '25px'}, "slow");
@@ -1047,8 +1046,20 @@ $(document).ready(function(){
 //progress bars
 
 $(document).ready(function(){
-        		$('.html').animate({width:'80%'},2000);
-        		$('.css').animate({width:'70%'},2000);
-        		$('.js').animate({width:'35%'},2000);
-        		$('.php').animate({width:'50%'},2000);
-        	});
+    $("#flipski").click(function(){
+		$('.html').animate({width:'80%'},2000);
+        $('.css').animate({width:'70%'},2000);
+        $('.js').animate({width:'35%'},2000);
+        $('.php').animate({width:'50%'},2000);        
+    });
+});
+
+
+$(document).ready(function(){
+    $("#mflipeduflipski").click(function(){
+		$('.html').animate({width:'80%'},2000);
+        $('.css').animate({width:'70%'},2000);
+        $('.js').animate({width:'35%'},2000);
+        $('.php').animate({width:'50%'},2000);        
+    });
+});
