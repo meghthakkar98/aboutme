@@ -13,7 +13,7 @@
 			color:#000000;
 			word-spacing: 1px;
 			font-family: 'Sintony', sans-serif;
-			font-size: 14px;
+			font-size: 15px;
 			text-align: center;
 			margin: 0 auto ;
 		}
@@ -30,10 +30,7 @@
 			text-align: center;
 			margin:0 auto;
 			margin-top: 0px;
-			background-image: linear-gradient(to bottom, #ff00ff 0%, #ffff00 100%);
-  			color: transparent;
-            -webkit-background-clip: text;
-  			background-clip: text;
+			color:#000;
 		}
 		a
 		{
@@ -134,7 +131,7 @@
 		{
 			#botresnavgi
 			{
-				padding-left: 7%;
+				padding-left: 8%;
 			}
 		}
 
