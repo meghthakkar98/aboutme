@@ -50,7 +50,6 @@
 			text-decoration: none;
 			text-align: center;
 			word-spacing: 10px;
-			padding-bottom: 90px;
 		
 		}
 
@@ -153,3 +152,8 @@
 		{
 			font-size:25px;		
 		} 			
+
+		span
+		{
+			padding-bottom: 90px;
+		}
