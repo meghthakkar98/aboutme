@@ -41,13 +41,14 @@
 		a:hover
 		{
 			text-decoration: none;
-			color: #ffffff;
+			color: #000000;
 		}
 		#icon
 		{
 			text-decoration: none;
 			text-align: center;
 			word-spacing: 10px;
+			color: #ffffff;
 		}					
 		#icon:hover
 		{
@@ -144,5 +145,4 @@
 		{
 			display: none;
 		}
-
 
