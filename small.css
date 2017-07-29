@@ -114,7 +114,8 @@
 			width:100%;	
 			padding-top:2%;
 			padding-bottom:2%;
-			
+			opacity: 0.8;
+			filter: alpha (opacity=70);
 		}
 
 		
