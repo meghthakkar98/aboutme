@@ -108,6 +108,7 @@ $(document).ready(function(){
         $("#panelabi").slideDown("slow"); 
         $("#panelabt").hide();
         $("#paneledu").hide();
+        $("#panelcur").hide();
   		$("#panelski").hide();
   		$("#mflipabi").css("color", "#000000"); 
   		$("#mflipabt").css("color", "#ffffff"); 
