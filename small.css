@@ -1,161 +1,161 @@
-		body
-		{
-			background: linear-gradient(to left, #0072ff, #00c6ff);
-		}
-
-		h1
-		{
-			font-size: 18px;
-			text-align: center;
-		}
-		p
-		{
-			color:#000000;
-			word-spacing: 1px;
-			font-family: 'Sintony', sans-serif;
-			font-size: 15px;
-			text-align: center;
-			margin: 0 auto ;
-		}
-		img
-		{
-			height: 130px;
-			width: 130px;
-			border-radius:5%;
-		}
-		#mmyne
-		{
-			font-family: 'Merienda One', cursive;
-			font-size: 1px;
-			text-align: center;
-			margin:0 auto;
-			margin-top: 0px;
-			color:#000;
-		}
-		a
-		{
-			text-decoration: none;
-			color: #ffffff;	
-			font-family: 'Merienda One', cursive;
-		}
-		a:hover
-		{	
-			text-decoration: none;
-			color: #000000;
-		}
-
-		#icon
-		{
-			font-size:25px;
-			text-decoration: none;
-			text-align: center;
-			word-spacing: 10px;
-		
-		}
-
-		#textchange1
-		{
-			font-family: 'Sintony', sans-serif;
-			font-size: 1px;
-			text-align: center;	
-			color: #ffffff;
-		}
-		#textchange2
-		{
-			font-family: 'Sintony', sans-serif;
-			font-size: 1px;
-			text-align: center;	
-			color: #ffffff;
-		}
-		#textchange3
-		{
-			font-family: 'Sintony', sans-serif;	
-			font-size: 1px;
-			text-align: center;
-			color: #ffffff;	
-		}
-		#textchange4
-		{
-			font-family: 'Sintony', sans-serif;
-			font-size: 1px;
-			text-align: center;	
-			color: #ffffff;
-		}
-		#textchange5
-		{
-			font-family: 'Sintony', sans-serif;
-			font-size: 1px;
-			text-align: center;	
-			color: #ffffff;
-		}
-								
-		#panelabt
-		{
-			background: linear-gradient(to left, #0072ff, #00c6ff);
-		}
-
-		#panelabi,#panelcur,#paneledu,#panelski
-		{
-			display: none;
-			width: 100%;		
-			background: linear-gradient(to left, #0072ff, #00c6ff);	
-		}
-		#pinnav
-		{
-			padding-bottom:  0 auto ;	
-		}
-		#botresnavgi	
-		{	
-			text-align: center;
-			background: linear-gradient(to left, #0072ff, #00c6ff);
-			position:fixed;
-			bottom:0;
-			left:0;
-			width:100%;	
-			padding-top:2%;
-			padding-bottom:2%;
-			opacity: 0.8;
-			filter: alpha (opacity=70);
-		}
-
-		
-		@media only screen and (max-width: 320px)
-		{
-			#botresnavgi
+			body
 			{
-				padding-left: 2%;
+				background: linear-gradient(to left, #0072ff, #00c6ff);
 			}
-		}
 
-		@media only screen and (min-width: 321px) and (max-width: 767px)
-		{
-			#botresnavgi
+			h1
 			{
-				padding-left: 8%;
+				font-size: 18px;
+				text-align: center;
 			}
-		}
+			p
+			{
+				color:#000000;
+				word-spacing: 1px;
+				font-family: 'Sintony', sans-serif;
+				font-size: 17px;
+				text-align: center;
+				margin: 0 auto ;
+			}
+			img
+			{
+				height: 130px;
+				width: 130px;
+				border-radius:5%;
+			}
+			#mmyne
+			{
+				font-family: 'Merienda One', cursive;
+				font-size: 1px;
+				text-align: center;
+				margin:0 auto;
+				margin-top: 0px;
+				color:#000;
+			}
+			a
+			{
+				text-decoration: none;
+				color: #ffffff;	
+				font-family: 'Merienda One', cursive;
+			}
+			a:hover
+			{	
+				text-decoration: none;
+				color: #000000;
+			}
 
-		#mflipabt,#mflipabi,#mflipcur,#mflipedu,#mflipski
-		{	
-			font-family: 'Sintony', sans-serif;
-			display: inline-block;
-			float: left;
-			font-size: 12px;
-			color: #ffffff;	 
-			margin: 2.2%;
-		}
+			#icon
+			{
+				font-size:25px;
+				text-decoration: none;
+				text-align: center;
+				word-spacing: 10px;
+			
+			}
 
-		.mhide
-		{
-			display: none;
-		}
-		#hicon	
-		{
-			font-size:25px;		
-		} 			
+			#textchange1
+			{
+				font-family: 'Sintony', sans-serif;
+				font-size: 1px;
+				text-align: center;	
+				color: #ffffff;
+			}
+			#textchange2
+			{
+				font-family: 'Sintony', sans-serif;
+				font-size: 1px;
+				text-align: center;	
+				color: #ffffff;
+			}
+			#textchange3
+			{
+				font-family: 'Sintony', sans-serif;	
+				font-size: 1px;
+				text-align: center;
+				color: #ffffff;	
+			}
+			#textchange4
+			{
+				font-family: 'Sintony', sans-serif;
+				font-size: 1px;
+				text-align: center;	
+				color: #ffffff;
+			}
+			#textchange5
+			{
+				font-family: 'Sintony', sans-serif;
+				font-size: 1px;
+				text-align: center;	
+				color: #ffffff;
+			}
+									
+			#panelabt
+			{
+				background: linear-gradient(to left, #0072ff, #00c6ff);
+			}
 
-		span
-		{
-			padding-bottom: 90px;
-		}
+			#panelabi,#panelcur,#paneledu,#panelski
+			{
+				display: none;
+				width: 100%;		
+				background: linear-gradient(to left, #0072ff, #00c6ff);	
+			}
+			#pinnav
+			{
+				padding-bottom:  0 auto ;	
+			}
+			#botresnavgi	
+			{	
+				text-align: center;
+				background: linear-gradient(to left, #0072ff, #00c6ff);
+				position:fixed;
+				bottom:0;
+				left:0;
+				width:100%;	
+				padding-top:2%;
+				padding-bottom:2%;
+				opacity: 0.8;
+				filter: alpha (opacity=70);
+			}
+
+			
+			@media only screen and (max-width: 320px)
+			{
+				#botresnavgi
+				{
+					padding-left: 2%;
+				}
+			}
+
+			@media only screen and (min-width: 321px) and (max-width: 767px)
+			{
+				#botresnavgi
+				{
+					padding-left: 8%;
+				}
+			}
+
+			#mflipabt,#mflipabi,#mflipcur,#mflipedu,#mflipski
+			{	
+				font-family: 'Sintony', sans-serif;
+				display: inline-block;
+				float: left;
+				font-size: 12px;
+				color: #ffffff;	 
+				margin: 2.2%;
+			}
+
+			.mhide
+			{
+				display: none;
+			}
+			#hicon	
+			{
+				font-size:25px;		
+			} 			
+
+			span
+			{
+				padding-bottom: 90px;
+			}
 
