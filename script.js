@@ -75,7 +75,7 @@ $(document).ready(function(){
         $("#panelcur").hide();
         $("#panelabi").hide();
         $("#paneledu").hide();
-      	$("#flipski").css("colgroupor", "#3399ff"); 
+      	$("#flipski").css("color", "#3399ff"); 
       	$("#flipabt").css("color", "#ffffff"); 
       	$("#flipabi").css("color", "#ffffff"); 
       	$("#flipcur").css("color", "#ffffff"); 
