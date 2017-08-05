@@ -26,12 +26,11 @@
         .title
         {
         	position: absolute;
-        	width: 100px;
+        	width: 90px;
         	height: 30px;
         	padding-left: 10px;
         	float: left;
-        	font-weight: bold;
-        	color: #000;
+        	color: #fff;
         	line-height: 2;
         	z-index: 10000;
         	border-top-left-radius: 5px;
@@ -46,7 +45,7 @@
         	padding-right:10px;
         	line-height: 2;
         	font-weight: bold;
-        	color: #455a64;
+        	color: #000;
         	z-index: 10000;
         }
         	
@@ -57,43 +56,27 @@
         	border-radius: 5px;
         }
         	
-        .htmlColor
-        {
-        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
-        }
-
-        .cssColor
-        {
-        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
-        }
-        .jsColor
-        {
-        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
-        }
-        .phpColor
-        {
-        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
-        }
+        
         
         .html
         {
-                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
+                background: linear-gradient(to left, #6a3093, #a044ff);
         }
         .css
         {
-        	background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
+        	background: linear-gradient(to left, #6a3093, #a044ff);
         }       
         .js
         {
-                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
+                background: linear-gradient(to left, #6a3093, #a044ff);
         }
         .php
         {
-                background: linear-gradient(to bottom, #00ff00 0%, #009900 100%);
+                background: linear-gradient(to left, #6a3093, #a044ff);
         }
 
         @media (max-width: 720px) {
         		.main{
-        			width: 90%;
+        			width: 80%;
         		}
         	}
