@@ -117,13 +117,14 @@
 		#resnavgi	
 		{
 			background-color: #000000;
-			position:fixed;
+			position:fixed;	
 			font-family: 'Sintony', sans-serif;
 			text-align:center;
 			top:0;
 			left: 0;
 			width:100%;
 			display: block;
+			opacity: 0.9;
 		}	
 
 		#flipabt,#flipabi,#flipcur,#flipedu,#flipski
@@ -133,13 +134,9 @@
 			margin-top: 0.5%;
 			color:#ffffff;
 			padding-left: 11%;	 
-		}
-
-		#flipabt:hover,#flipabi:hover,#flipcur:hover,#flipedu:hover,#flipski:hover
-		{
-			color: #3399ff;
 			cursor: pointer;
 		}
+
 		
 		.deskhide
 		{
