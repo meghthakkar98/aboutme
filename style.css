@@ -1,6 +1,6 @@
 		body
 		{
-	  		background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);
+	  		background:linear-gradient(to left, #0072ff, #00c6ff);
 		}
 		h1
 		{
@@ -99,14 +99,14 @@
 
 		#panelabt
 		{
-			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);			
+			background: linear-gradient(to left, #0072ff, #00c6ff);
 		}
 
 		#panelabi,#panelcur,#paneledu,#panelski
 		{
 			display: none;
 			width: 100%;		
-			background: linear-gradient(to left, #3399ff 0%, #00ffcc 100%);		
+			background: linear-gradient(to left, #0072ff, #00c6ff);
 		}				
 
 		#pinnav
