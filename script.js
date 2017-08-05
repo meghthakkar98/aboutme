@@ -23,6 +23,7 @@ $(document).ready(function(){
 $(document).ready(function(){
 	    $("#flipabi").click(function(){
         $("#panelabi").slideDown("slow"); 
+        $("#panelcur").hide();
         $("#panelabt").hide();
         $("#paneledu").hide();
   		$("#panelski").hide();
