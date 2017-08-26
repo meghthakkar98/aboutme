@@ -1,6 +1,6 @@
 		body
 		{
-	  		background: linear-gradient(to right, #4776e6, #8e54e9);
+	  		background: linear-gradient(to right, #00d2ff, #928dab);
 	  	}
 		h1
 		{
@@ -21,15 +21,15 @@
 
 		img
 		{
-			width: 300px;
+			width: 500px;
 			height: 300px;
-			margin-left: 50%;
+			margin-left: 15%;
 			margin-top: 15%;
-			border-radius: 25px;
+			border-radius: 10px;
 		}
 		.timeline
 		{
-			margin-top: -23%;
+			margin-top: -26%;
 			float: right;
 			clear: both;
 		}
@@ -46,23 +46,24 @@
 			padding-right:  19%;
 			text-align: right;
 			color: #ffffff;	
+			padding-top: 1.6%;
 		}
 		a
 		{
 			font-family: 'Merienda One', cursive;
 			text-decoration: none;
-			color: #00ffff;
+			color: #000000;
 		}
 		a:hover
 		{
 			text-decoration: none;
-			color: #000000;
+			color: #ffffff;
 		}
 		#icon
 		{
 			text-decoration: none;
 			word-spacing: 5px;
-			color: #00ffff;
+			color: #D3D3D3;
 			margin-right: 18px;
 		}					
 		#icon:hover
@@ -136,7 +137,7 @@
 
 		#resnavgi	
 		{
-			background-color: linear-gradient(to left, #0072ff, #00c6ff);
+			background: linear-gradient(to right, #00d2ff, #928dab);
 			position:fixed;	
 			font-family: 'Sintony', sans-serif;
 			text-align:center;
