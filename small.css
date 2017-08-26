@@ -1,6 +1,6 @@
 			body
 			{
-				background: linear-gradient(to right, #4776e6, #8e54e9);
+				background: linear-gradient(to right, #67b26f, #4ca2cd);
 			}
 
 			h1
@@ -29,7 +29,7 @@
 				margin: auto;
 				display: block;
 				height: 210px;
-				width: 210px;
+				width: 250px;
 				border-radius:5%;
 			}
 
@@ -46,17 +46,18 @@
 			a
 			{
 				text-decoration: none;
-				color: #00ffff;	
+				color: #000000;	
 				font-family: 'Merienda One', cursive;
 			}
 			a:hover
 			{	
 				text-decoration: none;
-				color: #000000;
+				color: #ffffff;
 			}
 
 			#icon
 			{
+				color: #D3D3D3;
 				font-size:25px;
 				text-decoration: none;
 				text-align: center;
@@ -100,14 +101,14 @@
 									
 			#panelabt
 			{
-				background: linear-gradient(to right, #4776e6, #8e54e9);
+				
 			}
 
 			#panelabi,#panelcur,#paneledu
 			{
 				display: none;
 				width: 100%;		
-				background: linear-gradient(to right, #4776e6, #8e54e9);
+				
 			}
 			#pinnav
 			{
@@ -116,7 +117,7 @@
 			#botresnavgi	
 			{	
 				text-align: center;
-				background: linear-gradient(to right, #4776e6, #8e54e9);
+				background: linear-gradient(to right, #67b26f, #4ca2cd);
 				position:fixed;
 				bottom:0;
 				left:0;
