@@ -6,14 +6,14 @@
 
 	//aboutme
 	$(document).ready(function(){
-		$("#flipabt").css("color", "#00ffff"); 
+		$("#flipabt").css("color", "#000000"); 
 	    $("#flipabt").click(function(){
 	        $("#panelabt").fadeIn("slow"); 
 	        $("#panelabi").hide();
 	        $("#panelcur").hide();
 	        $("#paneledu").hide();
 	        $("#panelski").hide();
-	        $("#flipabt").css("color", "#00ffff"); 
+	        $("#flipabt").css("color", "#000000"); 
 	        $("#flipabi").css("color", "#ffffff"); 
 	        $("#flipcur").css("color", "#ffffff"); 
 	        $("#flipedu").css("color", "#ffffff"); 
@@ -29,7 +29,7 @@
 	        $("#panelabt").hide();
 	        $("#paneledu").hide();
 	  		$("#panelski").hide();
-	  		$("#flipabi").css("color", "#00ffff"); 
+	  		$("#flipabi").css("color", "#000000"); 
 	  		$("#flipabt").css("color", "#ffffff"); 
 	  		$("#flipcur").css("color", "#ffffff"); 
 	  		$("#flipedu").css("color", "#ffffff"); 
@@ -44,7 +44,7 @@
 	        $("#panelabi").hide();
 	        $("#paneledu").hide();
 	        $("#panelski").hide();
-	        $("#flipcur").css("color", "#00ffff"); 
+	        $("#flipcur").css("color", "#000000"); 
 	        $("#flipabt").css("color", "#ffffff"); 
 	        $("#flipabi").css("color", "#ffffff"); 
 	        $("#flipedu").css("color", "#ffffff");  
@@ -59,7 +59,7 @@
 	        $("#panelcur").hide();
 	        $("#panelabi").hide();
 	        $("#panelski").hide();
-	        $("#flipedu").css("color", "#00ffff"); 
+	        $("#flipedu").css("color", "#000000"); 
 	        $("#flipabt").css("color", "#ffffff"); 
 	        $("#flipabi").css("color", "#ffffff"); 
 	        $("#flipcur").css("color", "#ffffff"); 
@@ -69,14 +69,14 @@
 
 	// mobile botttom 
 	$(document).ready(function(){
-		$("#mflipabt").css("color", "#00ffff"); 
+		$("#mflipabt").css("color", "#000000"); 
 	    $("#mflipabt").click(function(){
 	        $("#panelabt").slideDown("slow"); 
 	        $("#panelabi").hide();
 	        $("#panelcur").hide();
 	        $("#paneledu").hide();
 	        $("#panelski").hide();
-	        $("#mflipabt").css("color", "#00ffff"); 
+	        $("#mflipabt").css("color", "#000000"); 
 	        $("#mflipabi").css("color", "#ffffff"); 
 	        $("#mflipcur").css("color", "#ffffff"); 
 	        $("#mflipedu").css("color", "#ffffff");  
@@ -92,7 +92,7 @@
 	        $("#paneledu").hide();
 	        $("#panelcur").hide();
 	  		$("#panelski").hide();
-	  		$("#mflipabi").css("color", "#00ffff"); 
+	  		$("#mflipabi").css("color", "#000000"); 
 	  		$("#mflipabt").css("color", "#ffffff"); 
 	  		$("#mflipcur").css("color", "#ffffff"); 
 	  		$("#mflipedu").css("color", "#ffffff");
@@ -107,7 +107,7 @@
 	        $("#panelabi").hide();
 	        $("#paneledu").hide();
 	        $("#panelski").hide();
-	        $("#mflipcur").css("color", "#00ffff"); 
+	        $("#mflipcur").css("color", "#000000"); 
 	        $("#mflipabt").css("color", "#ffffff"); 
 	        $("#mflipabi").css("color", "#ffffff"); 
 	        $("#mflipedu").css("color", "#ffffff");   
@@ -122,7 +122,7 @@
 	        $("#panelcur").hide();
 	        $("#panelabi").hide();
 	        $("#panelski").hide();
-	        $("#mflipedu").css("color", "#00ffff"); 
+	        $("#mflipedu").css("color", "#000000"); 
 	        $("#mflipabt").css("color", "#ffffff"); 
 	        $("#mflipabi").css("color", "#ffffff"); 
 	        $("#mflipcur").css("color", "#ffffff"); 
@@ -193,15 +193,6 @@
 
 
 
-	//animation for name
-	$(document).ready(function(){
-		{
-	      $("#myne").animate({fontSize: '40px'}, "slow");
-	      $("#mmyne").animate({fontSize: '30px'}, "slow");
-	      $("#tmyne").animate({fontSize: '50px'}, "slow");
-	    }
-
-	});
 
 	$(document).ready(function(){
 		//header change
