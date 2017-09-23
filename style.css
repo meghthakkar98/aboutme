@@ -2,15 +2,17 @@
 		{
 	  		background: linear-gradient(to right, #00d2ff, #928dab);
 	  	}
+
 		h1
 		{
 			
 			font-size: 20px;
 		
 		}
+
 		p
 		{
-			color:#737373;
+			color:.737373;
 			word-spacing: 2px;
 			font-family: 'Sintony', sans-serif;
 			font-size: 22px;
@@ -27,19 +29,30 @@
 			margin-top: 15%;
 			border-radius: 10px;
 		}
+
 		.timeline
 		{
-			margin-top: -26%;
+			margin-top: -27%;
 			float: right;
 			clear: both;
 		}
+
+		@media only screen and (min-width: 1400px) 
+		{
+			.timeline
+			{
+				margin-top: -22%;
+			}
+		}
+
 		.mainimg
 		{
 
 			float: left;
 			clear: both;
-		}	
-		#myne
+		}
+
+		.myne
 		{
 			font-family: 'Merienda One', cursive;
 			font-size: 40px;
@@ -48,25 +61,37 @@
 			color: #ffffff;	
 			padding-top: 1.6%;
 		}
+
+			@media only screen and (min-width: 1400px) 
+			{
+				.myne
+				{
+					padding-right: 23%;
+				}
+			}
+
 		a
 		{
 			font-family: 'Merienda One', cursive;
 			text-decoration: none;
 			color: #000000;
 		}
+
 		a:hover
 		{
 			text-decoration: none;
 			color: #ffffff;
 		}
-		#icon
+		
+		.icon
 		{
 			text-decoration: none;
 			word-spacing: 5px;
 			color: #D3D3D3;
 			margin-right: 18px;
-		}					
-		#icon:hover
+		}
+
+		.icon:hover
 		{
 			color:#000000;
 			cursor: pointer;
@@ -74,21 +99,21 @@
 				
 		/*---for Heading1----*/
 
-		#textchange1
+		.textchange1
 		{
 			color: #ffffff;
 			font-family: 'Sintony', sans-serif;
 			font-size: 10px;
 			padding-left: 66%;
 		}
-		#textchange2
+		.textchange2
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
 			font-size: 10px;
 			padding-left: 66%;	
 		}
-		#textchange3
+		.textchange3
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
@@ -96,14 +121,14 @@
 			padding-left: 66%;
 		}
 
-		#textchange4
+		.textchange4
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
 			font-size: 10px;
 			padding-left: 66%;
 		}
-		#textchange5
+		.textchange5
 		{
 			color: #ffffff;		
 			font-family: 'Sintony', sans-serif;
@@ -111,31 +136,40 @@
 			
 		}
 
-		#panelabt
+
+		@media only screen and (min-width: 1400px) 
+		{
+			.textchange1,.textchange2,.textchange3,.textchange4
+			{
+				padding-left: 64%;
+			}
+		}
+
+		.panelabt
 		{
 			
 		}
 
-		#panelabi
+		.panelabi
 		{
 			
 			display: none;
 			width: 100%;		
 			
 		}
-		#panelski
+		.panelski
 		{
 			width: 100%;
 			display: none;
 		}				
-		#panelcur,#paneledu
+		.panelcur,.paneledu
 		{
 			display: none;
 			width: 100%;		
 			
 		}
 
-		#resnavgi	
+		.resnavgi	
 		{
 			background: linear-gradient(to right, #00d2ff, #928dab);
 			position:fixed;	
@@ -149,7 +183,7 @@
 			
 		}	
 
-		#flipabt,#flipabi,#flipcur,#flipedu
+		.flipabt,.flipabi,.flipcur,.flipedu
 		{
 			float: left;
 			font-size: 17px;
