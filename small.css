@@ -33,7 +33,7 @@
 				border-radius:5%;
 			}
 
-			#mmyne
+			.mmyne
 			{
 				font-family: 'Merienda One', cursive;
 				font-size: 30px;
@@ -55,7 +55,7 @@
 				color: #ffffff;
 			}
 
-			#icon
+			.icon
 			{
 				color: #D3D3D3;
 				font-size:25px;
@@ -63,35 +63,35 @@
 				text-align: center;
 			}
 
-			#textchange1
+			.textchange1
 			{
 				font-family: 'Sintony', sans-serif;
 				font-size: 1px;
 				text-align: center;	
 				color: #ffffff;
 			}
-			#textchange2
+			.textchange2
 			{
 				font-family: 'Sintony', sans-serif;
 				font-size: 1px;
 				text-align: center;	
 				color: #ffffff;
 			}
-			#textchange3
+			.textchange3
 			{
 				font-family: 'Sintony', sans-serif;	
 				font-size: 1px;
 				text-align: center;
 				color: #ffffff;	
 			}
-			#textchange4
+			.textchange4
 			{
 				font-family: 'Sintony', sans-serif;
 				font-size: 1px;
 				text-align: center;	
 				color: #ffffff;
 			}
-			#textchange5
+			.textchange5
 			{
 				font-family: 'Sintony', sans-serif;
 				font-size: 1px;
@@ -99,22 +99,22 @@
 				color: #ffffff;
 			}
 									
-			#panelabt
+			.panelabt
 			{
 				
 			}
 
-			#panelabi,#panelcur,#paneledu
+			.panelabi,.panelcur,.paneledu
 			{
 				display: none;
 				width: 100%;		
 				
 			}
-			#pinnav
+			.pinnav
 			{
 				padding-bottom:  0 auto ;	
 			}
-			#botresnavgi	
+			.botresnavgi	
 			{	
 				text-align: center;
 				background: linear-gradient(to right, #67b26f, #4ca2cd);
@@ -129,23 +129,32 @@
 			}
 
 			
-			@media only screen and (min-width: 0px)  and (max-width: 360px)
+			@media only screen and (min-width: 0px)  and (max-width: 359px)
 			{
-				#botresnavgi
+				.botresnavgi
 				{
 					padding-left: 10%;
 				}
 			}
 
-			@media only screen and (min-width: 361px) and (max-width: 767px)
+			@media only screen and (min-width: 360px) and (max-width: 413px)
 			{
-				#botresnavgi
+				.botresnavgi
 				{
-					padding-left: 16.4%;
+					padding-left: 13.6%;
 				}
 			}
 
-			#mflipabt,#mflipabi,#mflipcur,#mflipedu
+			@media only screen and (min-width: 414px) and (max-width: 767px)
+			{
+				.botresnavgi
+				{
+					padding-left: 15.5%;
+				}
+			}
+
+
+			.mflipabt,.mflipabi,.mflipcur,.mflipedu
 			{	
 				font-family: 'Sintony', sans-serif;
 				display: inline-block;
