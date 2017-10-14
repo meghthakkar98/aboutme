@@ -1,6 +1,6 @@
 			body
 			{
-				background: linear-gradient(to right, #67b26f, #4ca2cd);
+				background: linear-gradient(to right, #33ccff 0%, #00ffcc 100%);
 			}
 
 			h1
@@ -117,7 +117,7 @@
 			.botresnavgi	
 			{	
 				text-align: center;
-				background: linear-gradient(to right, #67b26f, #4ca2cd);
+				background: linear-gradient(to right, #33ccff 0%, #00ffcc 100%);
 				position:fixed;
 				bottom:0;
 				left:0;
