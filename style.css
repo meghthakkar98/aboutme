@@ -87,7 +87,7 @@
 		{
 			text-decoration: none;
 			word-spacing: 5px;
-			color: #D3D3D3;
+			color: #000000;
 			margin-right: 18px;
 		}
 
@@ -171,7 +171,7 @@
 
 		.resnavgi	
 		{
-			background: linear-gradient(to right, #00d2ff, #928dab);
+			background: linear-gradient(to right, #33ccff 0%, #00ffcc 100%);
 			position:fixed;	
 			font-family: 'Sintony', sans-serif;
 			text-align:center;
