@@ -30,6 +30,39 @@
 			border-radius: 10px;
 		}
 
+		@media only screen and (min-width: 1400px) and (max-width: 1800px)
+			{
+				i
+				{
+					font-size: 17px;
+				}
+			}
+
+		@media only screen and (min-width: 1801px) 
+			{
+				i
+				{
+					font-size: 23px;
+				}
+			}
+
+
+		@media only screen and (min-width: 1400px) and (max-width: 1800px)
+			{
+				p
+				{
+					font-size: 23px;
+				}
+			}
+
+		@media only screen and (min-width: 1801px) 
+			{
+				p
+				{
+					font-size: 27px;
+				}
+			}	
+
 		.timeline
 		{
 			margin-top: -27%;
@@ -37,13 +70,22 @@
 			clear: both;
 		}
 
-		@media only screen and (min-width: 1400px) 
+		@media only screen and (min-width: 1400px) and (max-width:1800px) 
 		{
 			.timeline
 			{
 				margin-top: -22%;
 			}
 		}
+
+		@media only screen and (min-width: 1801px) 
+		{
+			.timeline
+			{
+				margin-top: -17%;
+			}
+		}
+		
 
 		.mainimg
 		{
@@ -62,7 +104,7 @@
 			padding-top: 1.6%;
 		}
 
-			@media only screen and (min-width: 1400px) 
+			@media only screen and (min-width: 1400px) and (max-width: 1800px)
 			{
 				.myne
 				{
@@ -70,6 +112,13 @@
 				}
 			}
 
+			@media only screen and (min-width: 1801px) 
+			{
+				.myne
+				{
+					padding-right: 29%;
+				}
+			}
 		a
 		{
 			font-family: 'Merienda One', cursive;
@@ -103,21 +152,18 @@
 		{
 			color: #ffffff;
 			font-family: 'Sintony', sans-serif;
-			font-size: 10px;
 			padding-left: 66%;
 		}
 		.textchange2
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
-			font-size: 10px;
 			padding-left: 66%;	
 		}
 		.textchange3
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
-			font-size: 10px;
 			padding-left: 66%;
 		}
 
@@ -125,7 +171,6 @@
 		{
 			color: #ffffff;	
 			font-family: 'Sintony', sans-serif;
-			font-size: 10px;
 			padding-left: 66%;
 		}
 		.textchange5
@@ -137,11 +182,21 @@
 		}
 
 
-		@media only screen and (min-width: 1400px) 
+		@media only screen and (min-width: 1400px) and (max-width: 1800px)
 		{
 			.textchange1,.textchange2,.textchange3,.textchange4
 			{
 				padding-left: 64%;
+				font-size: 10px;
+			}
+		}
+
+		@media only screen and (min-width: 1801px) 
+		{
+			.textchange1,.textchange2,.textchange3,.textchange4
+			{
+				padding-left: 60%;
+				font-size:15px;
 			}
 		}
 
@@ -193,6 +248,15 @@
 			cursor: pointer;
 		}
 
+
+		@media only screen and (min-width: 1800px) 
+		{
+			.flipabt,.flipabi,.flipcur,.flipedu
+			{	
+				font-size: 23px;
+			}	
+		}
+	
 		
 		.deskhide
 		{
