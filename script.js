@@ -5,7 +5,7 @@ null==d?void 0:d))},attrHooks:{type:{set:function(a,b){if(!o.radioValue&&"radio"
 
 $(document).ready(function(){
 	$(".logo").fadeIn();
-    $(".logo").fadeOut(4500);
+    $(".logo").fadeOut(5500);
     $(".main").hide();
     $(".panelabt").hide();
     $(".myne").hide();
@@ -13,13 +13,13 @@ $(document).ready(function(){
     $(".flipabi").hide();
     $(".flipcur").hide();
     $(".flipedu").hide();
-    $(".main").show(4500);
-    $(".panelabt").show(4500);
-    $(".myne").show(4500);
-    $(".flipabt").show(4500);
-    $(".flipabi").show(4500);
-    $(".flipcur").show(4500);
-    $(".flipedu").show(4500);
+    $(".main").show(5500);
+    $(".panelabt").show(5500);
+    $(".myne").show(5500);
+    $(".flipabt").show(5500);
+    $(".flipabi").show(5500);
+    $(".flipcur").show(5500);
+    $(".flipedu").show(5500);
 }) 
 
 
