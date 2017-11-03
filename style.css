@@ -1,6 +1,6 @@
 		body
 		{
-	  		  background: linear-gradient(to left, #396afc, #2948ff);
+	  		background: linear-gradient(to left, #00d2ff, #3a7bd5);
 		}
 
 		h1
@@ -236,7 +236,7 @@
 
 		.resnavgi	
 		{
-			background: linear-gradient(to left, #396afc, #2948ff);
+			background: linear-gradient(to left, #00d2ff, #3a7bd5);
 			position:fixed;	
 			font-family: 'Sintony', sans-serif;
 			text-align:center;
