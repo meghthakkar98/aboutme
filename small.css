@@ -1,6 +1,6 @@
 			body
 			{
-				  background: linear-gradient(to left, #00d2ff, #3a7bd5);
+				 background: linear-gradient(to left, #00d2ff, #3a7bd5);
 			}
 
 			h1
@@ -133,7 +133,7 @@
 			{
 				.botresnavgi
 				{
-					padding-left: 10%;
+					padding-left: 13%;
 				}
 			}
 
@@ -141,15 +141,15 @@
 			{
 				.botresnavgi
 				{
-					padding-left: 15%;
-				}
+					padding-left: 17%;
+				}	
 			}
 
 			@media only screen and (min-width: 414px) and (max-width: 767px)
 			{
 				.botresnavgi
 				{
-					padding-left: 17%;
+					padding-left: 19%;
 				}
 			}
 
