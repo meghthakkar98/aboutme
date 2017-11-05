@@ -16,10 +16,10 @@ $(document).ready(function(){
     $(".main").show(5500);
     $(".panelabt").show(5500);
     $(".myne").show(5500);
-    $(".flipabt").show(6500);
-    $(".flipabi").show(6500);
-    $(".flipcur").show(6500);
-    $(".flipedu").show(6500);
+    $(".flipabt").show(6000);
+    $(".flipabi").show(6000);
+    $(".flipcur").show(6000);
+    $(".flipedu").show(6000);
 }) 
 
 
