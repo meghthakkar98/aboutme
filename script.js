@@ -13,13 +13,13 @@ $(document).ready(function(){
     $(".flipabi").hide();
     $(".flipcur").hide();
     $(".flipedu").hide();
-    $(".main").show(3500);
-    $(".panelabt").show(3500);
-    $(".myne").show(3500);
-    $(".flipabt").show(4000);
-    $(".flipabi").show(4000);
-    $(".flipcur").show(4000);
-    $(".flipedu").show(4000);
+    $(".main").show(3000);
+    $(".panelabt").show(3000);
+    $(".myne").show(3000);
+    $(".flipabt").show(3500);
+    $(".flipabi").show(3500);
+    $(".flipcur").show(3500);
+    $(".flipedu").show(3500);
 }) 
 
 
