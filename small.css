@@ -1,5 +1,4 @@
-*
-{
+*{
 	margin:auto;
 }
 html,body
@@ -193,7 +192,7 @@ html,body
 .pro .over
 {
 	opacity: 0.4;
- 	width: 100%;
+ 	width: 50%;
  	border-radius: 10%;
 }
 
@@ -201,7 +200,7 @@ html,body
 {
  	white-space: nowrap; 
  	color: #000000;
- 	font-size: 25px;
+ 	font-size: 19px;
  	font-style:bold;
  	position: absolute;
   	overflow: hidden;
