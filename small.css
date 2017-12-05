@@ -6,7 +6,7 @@
 html,body
 {
 	height: 100%;
-	background: linear-gradient(to right, #56ccf2, #2f80ed);
+	 background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 .sect
 {
@@ -20,12 +20,12 @@ html,body
 .subSect
 {
 	height: 100%;
-	background: linear-gradient(to right, #56ccf2, #2f80ed);
+	 background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 .subSect1
 {
 	height: 35%;
-	background: linear-gradient(to right, #56ccf2, #2f80ed);
+	 background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 
 .sectOne
@@ -99,11 +99,11 @@ html,body
 	}	
 }
 
-@media only screen and (min-width: 414px) and (max-width: 767px)
+@media only screen and (min-width: 414px) and (max-width: 959px)
 {
 	.fa
 	{
-		margin-left: 11.7%;
+		margin-left: 11.5%;
 	}
 }
 
@@ -155,7 +155,7 @@ html,body
 	font-family: 'Pacifico', cursive;
 	font-size:18px;
 	text-align: center;
-	color: #ffffff;
+	color: #0099ff;
 }
 
 /* images 	*/
