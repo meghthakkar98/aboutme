@@ -1,8 +1,7 @@
-
 html,body
 {
 	height: 100%;
-	 background: linear-gradient(to right, #ece9e6, #ffffff); 
+	background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 .sect
 {
@@ -21,12 +20,12 @@ html,body
 .subSect
 {
 	height: 100%;
-	 background: linear-gradient(to right, #ece9e6, #ffffff); 
+	background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 
 .myneH
 {
-	font-family: font-family: 'Open Sans', sans-serif;
+	font-family:'Open Sans', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
 	color: #0099ff;
@@ -109,25 +108,25 @@ html,body
 .fa-github 
 {
 	background: #000000;
- 	color: white;
+ 	color: #ffffff;
 }
 
 .fa-twitter 
 {
  	background: #55ACEE;
- 	color: white;
+ 	color: #ffffff;
 }
 
 .fa-instagram 
 {
   	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
- 	color: white;
+ 	color: #ffffff;
 }
 
 .fa-envelope 
 {
  	background: #dd4b39;
- 	color: white;
+ 	color: #ffffff;
 }
 
 
