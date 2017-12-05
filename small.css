@@ -29,7 +29,7 @@ html,body
 
 .sectOne
 {
-	background-image: url("https://s8.postimg.org/xmvfxdr0l/nice-min.jpg");
+	background-image: url("https://s8.postimg.org/8eam38gsl/pic2.png");
 }
 
 .myneH
@@ -37,7 +37,7 @@ html,body
 	font-family: font-family: 'Open Sans', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
-	color: #000000;
+	color: #0099ff;
 	text-align: center;
 	padding-top: 100%;
 	margin-right: 4%;
@@ -48,7 +48,7 @@ html,body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
-	color: #000000;
+	color: #0099ff;
 	text-align: center;
 	margin-right: 4%;
 }
@@ -116,13 +116,6 @@ html,body
 
 }
 
-.fa:hover
-{
-	
-	
-}
-
-
 
 .fa-github 
 {
@@ -170,7 +163,7 @@ html,body
 .pro 
 {
 	margin-left:25%;
-	margin-top: 5%;
+	margin-top: 8%;
  	position: relative;
  	width: 50%;
 	float:left
@@ -181,6 +174,7 @@ html,body
  	display: block;
  	width: 100%;
  	height: auto;
+ 	border-radius: 10%;
 }
 
 .over 
@@ -198,16 +192,17 @@ html,body
 
 .pro .over
 {
-	opacity: 0.3;
+	opacity: 0.4;
  	width: 100%;
+ 	border-radius: 10%;
 }
 
 .text 
 {
  	white-space: nowrap; 
  	color: #000000;
- 	font-size: 20px;
- 	font-style: bold;
+ 	font-size: 25px;
+ 	font-style:bold;
  	position: absolute;
   	overflow: hidden;
   	top: 50%;
