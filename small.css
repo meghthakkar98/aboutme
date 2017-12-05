@@ -1,5 +1,5 @@
 *
-{
+{
 	margin:auto;
 }
 
@@ -58,7 +58,7 @@ html,body
 .h1
 {
 	font-family: 'Pacifico', cursive;
-	font-size: 20px;
+	font-size: 28px;
 	text-align: center;
 	color: #0d0d0d;
 }
@@ -66,7 +66,7 @@ html,body
 .hd2
 {
 	font-family: 'Pacifico', cursive;
-	font-size: 25px;
+	font-size: 28px;
 	text-align: center;
 	color: #0d0d0d;
 	padding-top: 5%;	
@@ -75,7 +75,7 @@ html,body
 .fa
 {
 	padding: 10px;
-	font-size: 20px;
+	font-size: 28px;
 	width: 20px;
 	text-align: center;
 	text-decoration: none;
@@ -153,9 +153,10 @@ html,body
 .info
 {
 	font-family: 'Pacifico', cursive;
-	font-size:18px;
+	font-size:22px;
 	text-align: center;
 	color: #0099ff;
+	margin: auto;
 }
 
 /* images 	*/
@@ -192,7 +193,7 @@ html,body
  	font-style:bold;
  	position: absolute;
   	overflow: hidden;
-  	top: 50%;
+  	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	font-family:  'Pacifico', cursive;
