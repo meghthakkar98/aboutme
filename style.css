@@ -1,5 +1,5 @@
 *
-{
+{
 	margin:auto;
 }
 html,body
@@ -146,34 +146,16 @@ html,body
  	height: auto;
 }
 
-.over 
-{
- 	position: absolute;
- 	bottom: 0;
- 	left: 0;
- 	right: 0;
- 	background-color: #ffffff;
- 	overflow: hidden;
- 	width: 0;
- 	height: 100%;
- 	transition: .5s ease;
- 	opacity: 0.8;
-}
-
-.pro:hover .over
-{
- 	width: 50%;
- 	
-}
 
 .text 
 {
+	opacity: 0.8;
  	white-space: nowrap; 
  	color: #000000;
- 	font-size: 40px;
+ 	font-size: 30px;
  	position: absolute;
   	overflow: hidden;
-  	top: 50%;
+  	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
   	font-family:  'Pacifico', cursive;
