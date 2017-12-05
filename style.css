@@ -29,7 +29,7 @@ html,body
 
 .sectOne
 {
-	background-image: url("https://s1.postimg.org/1d6dr0kn1b/my2-min-min-min.jpg");
+	background-image: url("https://s8.postimg.org/ksxe3iy05/pic1.png");
 }
 
 .fa
@@ -79,9 +79,10 @@ html,body
 	font-family: font-family: 'Open Sans', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
-	color: #0d0d0d;
+	color: #f2f2f2;
 	text-align: center;
-	padding-top: 22%;
+	padding-top: 27%;
+	margin-right: 4%;
 }
 
 .myneN
@@ -89,8 +90,9 @@ html,body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:50px;
-	color: #0d0d0d;
+	color: #f2f2f2;
 	text-align: center;
+	margin-right: 4%;
 }
 
 .p1
@@ -155,12 +157,13 @@ html,body
  	width: 0;
  	height: 100%;
  	transition: .5s ease;
- 	opacity: 0.9;
+ 	opacity: 0.8;
 }
 
 .pro:hover .over
 {
  	width: 100%;
+ 	
 }
 
 .text 
