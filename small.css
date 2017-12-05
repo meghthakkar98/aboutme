@@ -157,6 +157,7 @@ html,body
  	display: block;
  	width: 100%;
  	height: auto;
+ 	box-shadow: 7px 7px #0d0d0d;
  	border-radius: 7%;
 }
 
@@ -183,5 +184,5 @@ html,body
 
 .bot
 {
-	padding-top:140%;
+	padding-top:146%;
 }
