@@ -1,6 +1,8 @@
-*{
+*
+{
 	margin:auto;
 }
+
 html,body
 {
 	height: 100%;
@@ -176,28 +178,15 @@ html,body
  	border-radius: 10%;
 }
 
-.over 
-{
- 	position: absolute;
- 	bottom: 0;
- 	left: 0;
- 	right: 0;
- 	background-color: #ffffff;
- 	overflow: hidden;
- 	width: 0;
- 	height: 100%;
- 	transition: .5s ease;
-}
-
 .pro .over
 {
-	opacity: 0.4;
  	width: 50%;
  	border-radius: 10%;
 }
 
 .text 
 {
+	opacity: 0.9;
  	white-space: nowrap; 
  	color: #000000;
  	font-size: 19px;
