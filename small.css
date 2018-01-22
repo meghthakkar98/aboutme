@@ -1,20 +1,25 @@
-html,body
+*
+{
+	margin:0;
+}
+
+body
 {
 	height: 100%;
 	background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 .sect
 {
+	width: 100%;
 	height: 100%;
 	background-size: cover;
-	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-position: center;
 }
 
 .sectOne
 {
-	background-image: url("https://s8.postimg.org/jcd71b26t/pic2-min.png");
+	background-image: url("https://s13.postimg.org/rh8jtzvw7/20171224_164826.jpg");
 }
 
 .subSect
@@ -28,9 +33,9 @@ html,body
 	font-family:'Open Sans', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
-	color: #0099ff;
+	color: rgb(3, 169, 244);
 	text-align: center;
-	padding-top: 100%;
+	padding-top: 135%;
 	margin-right: 4%;
 }
 
@@ -39,7 +44,7 @@ html,body
 	font-family: 'Source Sans Pro', sans-serif;
 	font-family: 'Pacifico', cursive;
 	font-size:30px;
-	color: #0099ff;
+	color: rgb(3, 169, 244);
 	text-align: center;
 	margin-right: 4%;
 }
@@ -113,7 +118,7 @@ html,body
 
 .fa-twitter 
 {
- 	background: #55ACEE;
+ 	background: rgb(33, 150, 243);
  	color: #ffffff;
 }
 
@@ -125,7 +130,7 @@ html,body
 
 .fa-envelope 
 {
- 	background: #dd4b39;
+ 	background:rgb(213, 0, 0);
  	color: #ffffff;
 }
 
@@ -135,7 +140,7 @@ html,body
 	font-family: 'Pacifico', cursive;
 	font-size:22px;
 	text-align: center;
-	color: #0099ff;
+	color: rgb(0, 229, 255);
 	margin: auto;
 }
 
