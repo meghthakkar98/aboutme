@@ -1,11 +1,17 @@
+*{
+	margin: 0;
 
-html,body
+}
+body
 {
-	height: 100%;
-	 background: linear-gradient(to right, #ece9e6, #ffffff); 
+	margin:0;
+	padding: 0;
+	background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 .sect
 {
+	
+	width: 100%;	
 	height: 100%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -15,7 +21,7 @@ html,body
 
 .subSect
 {
-	height: 120%;
+	
 	background: linear-gradient(to right, #ece9e6, #ffffff); 
 }
 
@@ -50,7 +56,7 @@ html,body
 
 .fa-twitter 
 {
- 	background: #55ACEE;
+ 	background: rgb(33, 150, 243);
  	color: white;
 }
 
@@ -62,7 +68,7 @@ html,body
 
 .fa-envelope 
 {
- 	background: #dd4b39;
+ 	background: rgb(213, 0, 0);
  	color: white;
 }
 
@@ -73,8 +79,8 @@ html,body
 	font-size:30px;
 	color: #f2f2f2;
 	text-align: center;
-	padding-top: 32%;
-	margin-right: 4%;
+	padding-top: 38%;
+	margin-right: 4.9%;
 }
 
 .myneN
@@ -84,7 +90,7 @@ html,body
 	font-size:50px;
 	color: #f2f2f2;
 	text-align: center;
-	margin-right: 4%;
+	margin-right: 4.9%;
 }
 
 .p1
@@ -118,7 +124,7 @@ html,body
 	font-family: 'Pacifico', cursive;
 	font-size: 30px;
 	text-align: center;
-	color: #0099ff;
+	color: rgb(0, 229, 255);
 }
 
 /* images 	*/
