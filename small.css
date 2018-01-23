@@ -6,7 +6,7 @@
 body
 {
 	height: 100%;
-	background: linear-gradient(to right, #ece9e6, #ffffff); 
+	background: linear-gradient(to right, #36d1dc, #5b86e5);  
 }
 .sect
 {
@@ -25,15 +25,14 @@ body
 .subSect
 {
 	height: 100%;
-	background: linear-gradient(to right, #ece9e6, #ffffff); 
+	background: linear-gradient(to right, #36d1dc, #5b86e5); 	 
 }
 
 .myneH
 {
-	font-family:'Open Sans', sans-serif;
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size:30px;
-	color: rgb(3, 169, 244);
+	color: #ffffff;
 	text-align: center;
 	padding-top: 135%;
 	margin-right: 4%;
@@ -41,10 +40,9 @@ body
 
 .myneN
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size:30px;
-	color: rgb(3, 169, 244);
+	color: #ffffff;
 	text-align: center;
 	margin-right: 4%;
 }
@@ -52,18 +50,18 @@ body
 
 .h1
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size: 28px;
 	text-align: center;
-	color: #0d0d0d;
+	color: #000000;
 }
 
 .hd2
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size: 25px;
 	text-align: center;
-	color: #0d0d0d;	
+	color: #ffffff;	
 }
 
 .fa
@@ -137,10 +135,10 @@ body
 
 .info
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size:22px;
 	text-align: center;
-	color: rgb(0, 229, 255);
+	color: #ffffff;
 	margin: auto;
 }
 
@@ -184,7 +182,7 @@ body
   	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-family:  'Pacifico', cursive;
+  	font-family:'Average Sans', sans-serif;
 }	
 
 .bot
