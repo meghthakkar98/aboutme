@@ -6,7 +6,7 @@ body
 {
 	margin:0;
 	padding: 0;
-	background: linear-gradient(to right, #ece9e6, #ffffff); 
+	background: linear-gradient(to right, #36d1dc, #5b86e5); 
 }
 .sect
 {
@@ -21,8 +21,7 @@ body
 
 .subSect
 {
-	
-	background: linear-gradient(to right, #ece9e6, #ffffff); 
+	 background: linear-gradient(to right, #36d1dc, #5b86e5);
 }
 
 .sectOne
@@ -56,7 +55,7 @@ body
 
 .fa-twitter 
 {
- 	background: rgb(33, 150, 243);
+ 	background: #1abc9c	;
  	color: white;
 }
 
@@ -74,8 +73,7 @@ body
 
 .myneH
 {
-	font-family: font-family: 'Open Sans', sans-serif;
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size:30px;
 	color: #f2f2f2;
 	text-align: center;
@@ -85,8 +83,7 @@ body
 
 .myneN
 {
-	font-family: 'Source Sans Pro', sans-serif;
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size:50px;
 	color: #f2f2f2;
 	text-align: center;
@@ -95,7 +92,7 @@ body
 
 .p1
 {
-	font-family: 'Open Sans', sans-serif;
+	font-family:'Average Sans', sans-serif;
 	color: #404040;
 	font-size:18px;
 	width: 25%;
@@ -104,7 +101,7 @@ body
 
 .h1
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size: 50px;
 	text-align: center;
 	color: #0d0d0d;
@@ -112,7 +109,7 @@ body
 
 .hd2
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size: 50px;
 	text-align: center;
 	color: #0d0d0d;	
@@ -121,10 +118,10 @@ body
 
 .info
 {
-	font-family: 'Pacifico', cursive;
+	font-family:'Average Sans', sans-serif;
 	font-size: 30px;
 	text-align: center;
-	color: rgb(0, 229, 255);
+	color: #ffffff;
 }
 
 /* images 	*/
@@ -155,13 +152,13 @@ body
 	opacity: 0.9;
  	white-space: nowrap; 
  	color: #000000;
- 	font-size: 30px;
+ 	font-size: 40px;
  	position: absolute;
   	overflow: hidden;
   	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-family:  'Pacifico', cursive;
+  	font-family:'Average Sans', sans-serif; 
 }	
 .bot
 {
