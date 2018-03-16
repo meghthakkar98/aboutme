@@ -6,7 +6,11 @@ body
 {
 	margin:0;
 	padding: 0;
-	background: linear-gradient(to right, #36d1dc, #5b86e5); 
+	background: linear-gradient(-45deg,#48dbfb, #2e86de, #00d2d3,#01a3a4);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 .sect
 {
@@ -21,7 +25,10 @@ body
 
 .subSect
 {
-	 background: linear-gradient(to right, #36d1dc, #5b86e5);
+
+	 -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 
 .sectOne
@@ -101,6 +108,7 @@ body
 
 .h1
 {
+
 	font-family:'Average Sans', sans-serif;
 	font-size: 50px;
 	text-align: center;
@@ -164,4 +172,42 @@ body
 {
 	padding-top: 10%;
 	padding-bottom: 10%;
+}
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
