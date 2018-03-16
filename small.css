@@ -1,158 +1,145 @@
-*
-{
-	margin:0;
-}
+*{
+	margin: 0;
 
+}
 body
 {
-	height: 100%;
-	background: linear-gradient(to right, #36d1dc, #5b86e5);  
+	margin:0;
+	padding: 0;
+	background: linear-gradient(-45deg,#48dbfb, #2e86de, #00d2d3,#01a3a4);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
 }
 .sect
 {
-	width: 100%;
+	
+	width: 100%;	
 	height: 100%;
 	background-size: cover;
+	background-repeat: no-repeat;
 	background-attachment: fixed; 
 	background-position: center;
 }
 
-.sectOne
-{
-	background: url("https://s13.postimg.org/rh8jtzvw7/20171224_164826.jpg");
-}
-
 .subSect
 {
-	height: 100%;
-	background: linear-gradient(to right, #36d1dc, #5b86e5); 	 
+
+	 -webkit-animation: Gradient 15s ease infinite;
+	-moz-animation: Gradient 15s ease infinite;
+	animation: Gradient 15s ease infinite;
+}
+
+.sectOne
+{
+	background-image: url("https://s8.postimg.org/ksxe3iy05/pic1.png");	
+}
+
+.fa
+{
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	margin-left: 16%;
+}
+
+.fa:hover
+{
+	cursor: pointer;
+	transform: scale(1.5,1.5);
+}
+
+.fa-github 
+{
+	background: #000000;
+ 	color: white;
+}
+
+.fa-twitter 
+{
+ 	background: #1abc9c	;
+ 	color: white;
+}
+
+.fa-instagram 
+{
+  	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+ 	color: white;
+}
+
+.fa-envelope 
+{
+ 	background: rgb(213, 0, 0);
+ 	color: white;
 }
 
 .myneH
 {
 	font-family:'Average Sans', sans-serif;
 	font-size:30px;
-	color: #ffffff;
+	color: #f2f2f2;
 	text-align: center;
-	padding-top: 135%;
-	margin-right: 4%;
+	padding-top: 38%;
+	margin-right: 4.9%;
 }
 
 .myneN
 {
 	font-family:'Average Sans', sans-serif;
-	font-size:30px;
-	color: #ffffff;
+	font-size:50px;
+	color: #f2f2f2;
 	text-align: center;
-	margin-right: 4%;
+	margin-right: 4.9%;
 }
 
+.p1
+{
+	font-family:'Average Sans', sans-serif;
+	color: #404040;
+	font-size:18px;
+	width: 25%;
+	padding: 2%;
+}
 
 .h1
 {
+
 	font-family:'Average Sans', sans-serif;
-	font-size: 28px;
+	font-size: 50px;
 	text-align: center;
-	color: #000000;
+	color: #0d0d0d;
 }
 
 .hd2
 {
 	font-family:'Average Sans', sans-serif;
-	font-size: 25px;
+	font-size: 50px;
 	text-align: center;
-	color: #ffffff;	
+	color: #0d0d0d;	
+	margin-top: 15%;
 }
-
-.fa
-{
-	padding: 10px;
-	font-size: 23px;
-	width: 20px;
-	text-align: center;
-	text-decoration: none;
-	margin: 5px 2px;
-	border-radius: 50%;
-}
-
-@media only screen and (min-width: 0px)  and (max-width: 359px)
-{
-	.fa
-	{
-		margin-left: 9%;
-	}
-}
-
-@media only screen and (min-width: 360px) and (max-width: 413px)
-{
-	.fa
-	{
-		margin-left: 10.5%;
-	}	
-}
-
-@media only screen and (min-width: 414px) and (max-width: 600px)
-{
-	.fa
-	{
-		margin-left: 11.5%;
-	}
-}
-
-
-@media only screen and (min-width: 601px) and (max-width: 1200px)
-{
-	.fa
-	{
-		margin-left: 13.5%;
-	}
-}
-
-.fa-github 
-{
-	background: #000000;
- 	color: #ffffff;
-}
-
-.fa-twitter 
-{
- 	background: rgb(33, 150, 243);
- 	color: #ffffff;
-}
-
-.fa-instagram 
-{
-  	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
- 	color: #ffffff;
-}
-
-.fa-envelope 
-{
- 	background:rgb(213, 0, 0);
- 	color: #ffffff;
-}
-
 
 .info
 {
 	font-family:'Average Sans', sans-serif;
-	font-size:22px;
+	font-size: 30px;
 	text-align: center;
 	color: #ffffff;
-	margin: auto;
 }
 
 /* images 	*/
 
 .pro 
 {
-	margin-left:25%;
-	margin-top: 8%;
-	margin-bottom: 10%;
+	margin-left:2%;
  	position: relative;
- 	width: 50%;
+ 	width: 30%;
 	float:left
-
 }
 
 .img 
@@ -160,32 +147,67 @@ body
  	display: block;
  	width: 100%;
  	height: auto;
+ 	border-radius: 7%;
  	box-shadow: 7px 7px #0d0d0d;
- 	border-radius: 7%;
 }
-
-.pro .over
-{
- 	width: 50%;
- 	border-radius: 7%;
-}
+ .img:hover
+ {
+ 	transform: scale(1.05,1.05);
+ }
 
 .text 
 {
 	opacity: 0.9;
  	white-space: nowrap; 
  	color: #000000;
- 	font-size: 19px;
- 	font-style:bold;
+ 	font-size: 40px;
  	position: absolute;
   	overflow: hidden;
   	top: 80%;
   	left: 50%;
   	transform: translate(-50%, -50%);
-  	font-family:'Average Sans', sans-serif;
+  	font-family:'Average Sans', sans-serif; 
 }	
-
 .bot
 {
-	padding-top:146%;
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
 }
