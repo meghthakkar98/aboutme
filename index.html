@@ -1,73 +1,213 @@
-<!DOCTYPE html>
-<html>
+*{
+	margin: 0;
 
-<head>
-	<!--Author:Megh Thakkar-->
-	<!---version 1.0.0.0-->
-	<meta name="keyword" content="megh,megh thakkar,Megh,Megh thakkar">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0 , user-scalable=no">
-	<link rel="icon" href="https://raw.githubusercontent.com/meghthakkar98/aboutme/gh-pages/megh.png">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300i|Pacifico|Average+Sans|Source+Sans+Pro:600i" rel="stylesheet">
-	<title> Megh Thakkar - Web Designer</title>
-	<link rel="stylesheet" type="text/css"  media="screen and (min-width:960px)" href="style.css">
-	<link rel="stylesheet" type="text/css"  media="screen and (min-width:0px) and (max-width:959px)" href="small.css">
-
-</head>
-
-<body>	
-	<div class="sectOne sect">
-			<h1 class="myneH">Hey , I'm</h1>
-			<h1 class="myneN">Megh Thakkar</h1>
-	</div>	
-	<br>	
-	<div class="subSect">
-		<h1 class="h1">I'm Web-Designer from India.</h1>
-		<br><br><br><br>
-		
-		<p class="info"><u>Currently:</u> <br>I'm doing Diploma in Computer Science and working on Andriod Project known as "Dream House VR"</p>
-
-
-		<br><br><br><br>
-		<h1 class="h1">Some of my Work :</h1><br><br>
-		
-		<div class="pro">
-  			<a target="_blank" href="https://meghthakkar98.github.io/about/">
-    			<img class="img" src="https://s8.postimg.org/gia1nf511/img3.png" alt="project3">
-  			</a>
-  			<div class="over">
-    			<div class="text">About me</div>
-  			</div>
-		</div>	
-
-		<div class="pro">
-  			<a target="_blank" href="https://meghthakkar98.github.io/LasVegas/">
-      			<img class="img" src="https://s8.postimg.org/6xqf0j09h/img1.png" alt="project1">
-      		</a>
-      		<div class="over">
-    			<div class="text">Blog</div>
-  			</div>	
-		</div>
-		
-		<div class="pro">
-  			<a target="_blank" href="http://neptunetelecom.co/">
-      			<img class="img" src="https://s8.postimg.org/rhv8z0nqd/img2.png" alt="project2">
-  			</a>
-  			<div class="over">
-    			<div class="text">Project 1</div>
-  			</div>
-		</div>	
-		<br><br>
-			<div class="bot">
-    			<h1 class="hd2">Stay-Connected:</h1>
-    			<br><br>
-    				<a class="icon fa fa-instagram" href="https://www.instagram.com/meghjt/?hl=en" title="Follow"></a> 
-					<a class="icon fa fa-github" href="https://github.com/meghthakkar98?tab=repositories" title="see it"><a>
-					<a class="icon fa fa-envelope" href="mailto:meghthakkar98@gmail.com" title="Mail me"></a>
-					<a class="icon fa fa-twitter" href="https://twitter.com/meghthakkar12" title="Follow"></a>
-			</div>
-	</div>		
+}
+body
+{
+	margin:0;
+	padding: 0;
+	background: linear-gradient(45deg,#00f260, #0575e6, #fc4a1a,#f7b733);
+	background-size: 400% 400%;
+	-webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+}
+.sect
+{
 	
+	width: 100%;	
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed; 
+	background-position: center;
+}
 
-</body>
-</html>
+.subSect
+{
+
+	 -webkit-animation: Gradient 10s ease infinite;
+	-moz-animation: Gradient 10s ease infinite;
+	animation: Gradient 10s ease infinite;
+}
+
+.sectOne
+{
+	background-image: url("https://i.imgur.com/XFynT8o.png");	
+}
+
+.fa
+{
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+	margin-left: 16%;
+}
+
+.fa:hover
+{
+	cursor: pointer;
+	transform: scale(1.5,1.5);
+}
+
+.fa-github 
+{
+	background: #000000;
+ 	color: white;
+}
+
+.fa-twitter 
+{
+ 	background: #1abc9c	;
+ 	color: white;
+}
+
+.fa-instagram 
+{
+  	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+ 	color: white;
+}
+
+.fa-envelope 
+{
+ 	background: rgb(213, 0, 0);
+ 	color: white;
+}
+
+.myneH
+{
+	font-family:'Average Sans', sans-serif;
+	font-size:30px;
+	color: #f2f2f2;
+	text-align: center;
+	padding-top: 38%;
+	margin-right: 4.9%;
+}
+
+.myneN
+{
+	font-family:'Average Sans', sans-serif;
+	font-size:50px;
+	color: #f2f2f2;
+	text-align: center;
+	margin-right: 4.9%;
+}
+
+.p1
+{
+	font-family:'Average Sans', sans-serif;
+	color: #404040;
+	font-size:18px;
+	width: 25%;
+	padding: 2%;
+}
+
+.h1
+{
+
+	font-family:'Average Sans', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: #0d0d0d;
+}
+
+.hd2
+{
+	font-family:'Average Sans', sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: #0d0d0d;	
+	margin-top: 15%;
+}
+
+.info
+{
+	font-family:'Average Sans', sans-serif;
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+/* images 	*/
+
+.pro 
+{
+	margin-left:2%;
+ 	position: relative;
+ 	width: 30%;
+	float:left
+}
+
+.img 
+{
+ 	display: block;
+ 	width: 100%;
+ 	height: auto;
+ 	border-radius: 7%;
+ 	box-shadow: 7px 7px #0d0d0d;
+}
+ .img:hover
+ {
+ 	transform: scale(1.05,1.05);
+ }
+
+.text 
+{
+	opacity: 0.9;
+ 	white-space: nowrap; 
+ 	color: #000000;
+ 	font-size: 40px;
+ 	position: absolute;
+  	overflow: hidden;
+  	top: 80%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	font-family:'Average Sans', sans-serif; 
+}	
+.bot
+{
+	padding-top: 10%;
+	padding-bottom: 10%;
+}
+
+
+
+@-webkit-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@-moz-keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
