@@ -1,235 +1,200 @@
-*
-{
-	margin:0;
-}
-
 body
 {
-	height: 100%;
-	background: linear-gradient(45deg,#00f260, #0575e6, #fc4a1a,#f7b733);
-	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;
+	background-color: #ffffff;
 }
-.sect
+
+.mhide
 {
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	background-attachment: fixed; 
-	background-position: center;
+	display: none;
+}
+
+h2
+{
+	
+	color: #0066ff;
+	text-align: center;	
+	font-size: 25px;
+	font-family: 'Merienda', cursive; 
+}
+
+p
+{
+	color: #ffffff;
+	text-align: center;
+	font-size: 35px;
+	margin: 0 auto ;
+	font-family: 'Merienda', cursive; 
+}
+
+.ps
+{
+	padding-top: 2%;
+}
+
+u
+{
+	color: #0066ff;
+	font-family: 'Merienda', cursive; 
+}
+
+*
+{
+	margin: 0;
+}
+
+.p1
+{
+	padding-top: 9%;	
+	font-size:60px;
+}
+
+
+.subSect
+{
+	height: 12%;
+	background-color: #000000;
+}
+
+.subSect2
+{
+	height: 10%;
+	background-color: #000000;
 }
 
 .sectOne
 {
-	background-image: url("https://i.imgur.com/yfTJ666.jpg");
+	background-image: url("https://image.ibb.co/j9m5Lz/megh03.jpg");
 }
 
-.subSect
+.sectTwo
 {
-	height: 100%;
-	-webkit-animation: Gradient 10s ease infinite;
-	-moz-animation: Gradient 10s ease infinite;
-	animation: Gradient 10s ease infinite;	 
+	background-image: url("https://image.ibb.co/j9m5Lz/megh02.jpg");	
 }
 
-.myneH
+.sectThree
 {
-	font-family:'Average Sans', sans-serif;
-	font-size:30px;
-	color: #ffffff;
-	text-align: center;
-	padding-top: 135%;
-	margin-right: 4%;
+	background-color: #ffffff; 
+	height: 15%;
 }
 
-.myneN
+.sectSeven
 {
-	font-family:'Average Sans', sans-serif;
-	font-size:30px;
-	color: #ffffff;
-	text-align: center;
-	margin-right: 4%;
+	background-image: url("https://image.ibb.co/j9m5Lz/megh01.jpg");
 }
 
-
-.h1
+.s1
 {
-	font-family:'Average Sans', sans-serif;
-	font-size: 28px;
-	text-align: center;
+	margin-top: 25%;
+	width: 25%;
+	height: 25%;	
+	padding-top: 0%;
+	margin-left:10%; 
+	margin-bottom: 20%;
+	font-family: 'Merienda', cursive;
 	color: #000000;
+	font-size:38px;
+
+}
+
+.s2
+{
+	margin-top: -42%;
+	width: 25%;
+	height: 25%;	
+	margin-left:72%; 
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+	margin-bottom: 18%;
+}
+
+
+.s3
+{
+	margin-top: -100%;
+	padding-top: 0%;
+	margin-left:10%; 
+	margin-bottom: 20%;
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+
+}
+
+.s4
+{
+	margin-top: -63%;
+	width: 25%;
+	height: 25%;	
+	margin-left:80%; 
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+	margin-bottom: 18%;
+}
+
+
+.s5
+{
+	margin-top: -100%;
+	width: 25%;
+	height: 25%;	
+	padding-top: 0%;
+	margin-left:8%; 
+	margin-bottom: 20%;
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+
 }
 
 .hd2
 {
-	font-family:'Average Sans', sans-serif;
-	font-size: 25px;
+	font-family: 'Merienda', cursive;
+	font-size: 50px;
 	text-align: center;
-	color: #ffffff;	
+	color: #000000;	
+	margin-top: 15%;
 }
 
 .fa
 {
-	padding: 10px;
-	font-size: 23px;
-	width: 20px;
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
 	border-radius: 50%;
+	margin-left: 14%;
 }
 
-@media only screen and (min-width: 0px)  and (max-width: 359px)
+.fa:hover
 {
-	.fa
-	{
-		margin-left: 9%;
-	}
-}
-
-@media only screen and (min-width: 360px) and (max-width: 413px)
-{
-	.fa
-	{
-		margin-left: 10.5%;
-	}	
-}
-
-@media only screen and (min-width: 414px) and (max-width: 600px)
-{
-	.fa
-	{
-		margin-left: 11.5%;
-	}
-}
-
-
-@media only screen and (min-width: 601px) and (max-width: 1200px)
-{
-	.fa
-	{
-		margin-left: 13.5%;
-	}
+	cursor: pointer;
+	transform: scale(2.5,2.5);
 }
 
 .fa-github 
 {
 	background: #000000;
- 	color: #ffffff;
+ 	color: white;
 }
 
 .fa-twitter 
 {
- 	background: rgb(33, 150, 243);
- 	color: #ffffff;
+ 	background: #1abc9c	;
+ 	color: white;
 }
 
 .fa-instagram 
 {
   	background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
- 	color: #ffffff;
+ 	color: white;
 }
 
 .fa-envelope 
 {
- 	background:rgb(213, 0, 0);
- 	color: #ffffff;
-}
-
-
-.info
-{
-	font-family:'Average Sans', sans-serif;
-	font-size:22px;
-	text-align: center;
-	color: #ffffff;
-	margin: auto;
-}
-
-/* images 	*/
-
-.pro 
-{
-	margin-left:25%;
-	margin-top: 8%;
-	margin-bottom: 10%;
- 	position: relative;
- 	width: 50%;
-	float:left
-
-}
-
-.img 
-{
- 	display: block;
- 	width: 100%;
- 	height: auto;
- 	box-shadow: 7px 7px #0d0d0d;
- 	border-radius: 7%;
-}
-
-.pro .over
-{
- 	width: 50%;
- 	border-radius: 7%;
-}
-
-.text 
-{
-	opacity: 0.9;
- 	white-space: nowrap; 
- 	color: #000000;
- 	font-size: 19px;
- 	font-style:bold;
- 	position: absolute;
-  	overflow: hidden;
-  	top: 80%;
-  	left: 50%;
-  	transform: translate(-50%, -50%);
-  	font-family:'Average Sans', sans-serif;
-}	
-
-.bot
-{
-	padding-top:146%;
-}
-
-
-
-@-webkit-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@-moz-keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
+ 	background: rgb(213, 0, 0);
+ 	color: white;
 }
