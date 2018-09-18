@@ -82,7 +82,7 @@ u
 	background-image: url("https://i.imgur.com/XG3j6b8.jpg");
 }
 
-.s1
+.ss1
 {
 	margin-top: 25%;
 	width: 25%;
@@ -96,34 +96,9 @@ u
 
 }
 
-.s2
+.ss2
 {
-	margin-top: -42%;
-	width: 25%;
-	height: 25%;	
-	margin-left:72%; 
-	font-family: 'Merienda', cursive;
-	color: #000000;
-	font-size:38px;
-	margin-bottom: 18%;
-}
-
-
-.s3
-{
-	margin-top: -100%;
-	padding-top: 0%;
-	margin-left:10%; 
-	margin-bottom: 20%;
-	font-family: 'Merienda', cursive;
-	color: #000000;
-	font-size:38px;
-
-}
-
-.s4
-{
-	margin-top: -63%;
+	margin-top: -40%;
 	width: 25%;
 	height: 25%;	
 	margin-left:80%; 
@@ -134,7 +109,32 @@ u
 }
 
 
-.s5
+.ss3
+{
+	margin-top: -63%;
+	padding-top: 0%;
+	margin-left:-10%; 
+	margin-bottom: 20%;
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+
+}
+
+.ss4
+{
+	margin-top: -63%;
+	width: 25%;
+	height: 25%;	
+	margin-left:4%; 
+	font-family: 'Merienda', cursive;
+	color: #000000;
+	font-size:38px;
+	margin-bottom: 18%;
+}
+
+
+.ss5
 {
 	margin-top: -100%;
 	width: 25%;
