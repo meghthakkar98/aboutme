@@ -12,22 +12,20 @@ $(window).scroll(function() {
 
 
 	$('.s2').css({
-		'transform' : 'translate(0px , '+ wScrool /3.5  +'%)'
+		'transform' : 'translate(0px , '+ wScrool /4.5 +'%)'
 	});
 	
 	$('.s3').css({
 		'transform' : 'translate(0px , '+ wScrool /6 +'%)'
 	});
 
-
 	$('.s4').css({
-		'transform' : 'translate(0px , '+ wScrool /6  +'%)'
+		'transform' : 'translate(0px , '+ wScrool /6 +'%)'
 	});
 	
 	$('.s5').css({
 		'transform' : 'translate(0px , '+ wScrool /8  +'%)'
 	});
-
 
 	$('.s6').css({
 		'transform' : 'translate(0px , '+ wScrool /18  +'%)'
@@ -41,6 +39,30 @@ $(window).scroll(function() {
 	$('.s8').css({
 		'transform' : 'translate(0px , '+ wScrool /18  +'%)'
 	});
+
+	$('.ss1').css({
+		'transform' : 'translate(0px , '+ wScrool /3.5  +'%)'
+	});
+
+
+	$('.ss2').css({
+		'transform' : 'translate(0px , '+ wScrool /9  +'%)'
+	});
+	
+	$('.ss3').css({
+		'transform' : 'translate(0px , '+ wScrool /12 +'%)'
+	});
+
+
+	$('.ss4').css({
+		'transform' : 'translate(0px , '+ wScrool /16  +'%)'
+	});
+	
+	$('.ss5').css({
+		'transform' : 'translate(0px , '+ wScrool /26  +'%)'
+	});
+
+
 
 /*
 	$('.fa').css({
